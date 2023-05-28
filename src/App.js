@@ -1,13 +1,26 @@
 import './index.css'
-import { Router, Routes, Route }
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import About from './components/pages/About'
+import Contact from './components/pages/Contact'
+import NotFound from './components/pages/NotFound'
+import Portfolio from './components/pages/Portfolio'
+import Resume from './components/pages/Resume'
 
 
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
+    <BrowserRouter>
+      <NavTabs/>
+        <Routes>
+          <Route path='/' element={<About/>}/>
+          <Route path='/Contact' element={<Contact/>}/>
+          <Route path='/NotFound' element={<NotFound/>}/>
+          <Route path='/Portfolio' element={<Portfolio/>}/>
+          <Route path='/Resume' element={<Resume/>}/>
+        </Routes>
+    </BrowserRouter>
   );
 }
 
