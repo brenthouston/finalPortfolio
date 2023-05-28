@@ -67,12 +67,12 @@ h1 {
     font-weight: 400;
     font-style: normal;
     color: var(--accent1);
-    font-size:inherit;
+    font-size:2rem;
     
 }
 
 #me{
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: var(--accent1);
 
 
@@ -104,12 +104,9 @@ body{
 }
 
 .box1{
+    margin:0;
+    padding:0;
     height: 3.5rem;
-    border: 1px solid var(--accent1) ;
-}
-
-.box-child{
-    height: 7rem;
     border: 1px solid var(--accent1) ;
 }
 
@@ -118,7 +115,10 @@ p{
 }
 
 .designEl{
-    width: 95px;
+    margin:0;
+    padding:0;
+    width: 120px;
+
     height: 2rem;
 }
 

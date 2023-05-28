@@ -15,29 +15,32 @@ export default function About(){
                 <h1 className="container text-center">PORTFOLIO</h1>
            </div>
            
-            
+            {/* Name and Role box */}
             <div className=" row mx-5"> 
-                <div className="box col-sm-6">
+
+            {/* box left */}
+                <div className="box col">
                     <div className="row mt-2 d-flex align-items-center justify-content-center">
                         <h3 id="me">BRENT HOUSTON</h3>
                         <h4 className="mt-n-1" id="role">Full Stack Developer</h4>
                     </div>
-                    
                 </div>
-                
-                <div className="col-2">
-                    <div className="row">
-                        <div className="box1">
-                            <img className="designEl" src={Port_dsgn} alt="design elements"/>
-                        </div>
-                        <div className="box1">
-                            <p id="symbol" className="row d-flex align-items-center justify-content-center">`+(){}?/*[]\:`=</p>
-                        </div>
 
+            {/* box middle     */}
+                <div className="col-md-auto">
+                    <div className="row">
+                        <div className="box1 d-flex align-items-center justify-content-center">
+                            <img className="designEl " src={Port_dsgn} alt="design elements"/>
+                        </div>
+                        <div className="box1 d-flex align-items-center justify-content-center">
+                            <p id="symbol" className="row mt-2">`+(){}?/*[]\:`=</p>
+                        </div>
                     </div>
                 </div>
-                <div className="box col-sm d-flex align-items-center justify-content-center">
-                  <img className="headShot" src={headShot} alt="my headshot"/>
+            
+            {/* box right */}
+                <div className="box col col-lg-2 d-flex align-items-center justify-content-center">
+                  <img className="headShot " src={headShot} alt="my headshot"/>
                 </div>
             </div>
 
