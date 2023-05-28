@@ -1,10 +1,11 @@
-import './index.css'
+
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import About from './components/pages/About'
 import Contact from './components/pages/Contact'
 import NotFound from './components/pages/NotFound'
 import Portfolio from './components/pages/Portfolio'
 import Resume from './components/pages/Resume'
+import NavTabs from './components/NavTabs'
 
 
 

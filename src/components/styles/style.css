@@ -1,0 +1,121 @@
+
+/* H1 */
+/* font-family: "filson-pro", sans-serif;
+font-weight: 400;
+font-style: normal; */
+
+
+/* Name
+Adelle Sans Extrabold
+font-family: "adelle-sans", sans-serif;
+font-weight: 800;
+font-style: normal; */
+
+/* Full Stack title and nav button / bar
+Gibson Thin
+font-family: "canada-type-gibson", sans-serif;
+font-weight: 100;
+font-style: normal; */
+
+/* colors
+#000000
+#ADADAD
+/* nav highlight #E80588 */
+
+/* stroke 2px */ 
+
+:root {
+    --accent1: #ADADAD;
+    --accent2: #000000;
+    --accent3: #E80588;
+   
+}
+
+
+
+.about-div{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   
+  
+}
+
+a:link{
+    text-decoration: none;
+    color:var(--accent1);
+    
+}
+
+a:visited{
+    color:var(--accent1);
+}
+
+ul{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin: 20px 0 0 20px;
+    
+}
+
+.nav nav-tabs{
+flex-direction: row;
+font-family: "canada-type-gibson", sans-serif;
+font-weight: 100;
+font-style: normal;
+color: var(--accent1);
+font-size: 20px;
+}
+
+h1 {
+    font-family: "filson-pro", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #ADADAD;
+font-size: 6.5rem;
+margin-top: 100px;
+
+
+}
+
+#me{
+    font-size: 1.75rem;
+    color: var(--accent1);
+    padding: 20px;
+}
+
+#role{
+    font-family: "canada-type-gibson", sans-serif;
+font-weight: 100;
+font-style: normal;
+    color:var(--accent1);
+    font-size: 1.5rem;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--accent2);
+    height: 100vh;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    height: 6.5rem;
+    width: 38rem;
+    border: 2px solid var(--accent1) ;
+    margin: 10px;
+}
+.box-child{
+    height: 6.rem;
+    width: 12.6rem;
+    border: 1px solid var(--accent1) ;
+}
+
+
+hr{
+  margin-top: 3rem;
+}
+
