@@ -27,20 +27,18 @@ font-style: normal; */
 :root {
     --accent1: #ADADAD;
     --accent2: #000000;
-    --accent3: #E80588;
+    --accent3: #6edff6;
    
 }
 
+.text{
+   padding: 40px;
+    justify-content: center;
 
 
-.about-div{
-    display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   
-  
 }
+
+
 
 a:link{
     text-decoration: none;
@@ -52,70 +50,81 @@ a:visited{
     color:var(--accent1);
 }
 
-ul{
-    display: flex;
-    width: 50%;
-    justify-content: space-around;
-    margin: 20px 0 0 20px;
-    
-}
-
-.nav nav-tabs{
-flex-direction: row;
-font-family: "canada-type-gibson", sans-serif;
-font-weight: 100;
-font-style: normal;
-color: var(--accent1);
-font-size: 20px;
-}
 
 h1 {
     font-family: "filson-pro", sans-serif;
-font-weight: 400;
-font-style: normal;
-color: #ADADAD;
-font-size: 6.5rem;
-margin-top: 100px;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--accent1);
+    font-size: 6.5rem;
+    margin-top: 60px;
 
 
+}
+
+#symbol{
+    font-family: "filson-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--accent1);
+    font-size:inherit;
+    
 }
 
 #me{
-    font-size: 1.75rem;
+    font-size: 2rem;
     color: var(--accent1);
-    padding: 20px;
+
+
 }
 
-#role{
+#role {
     font-family: "canada-type-gibson", sans-serif;
-font-weight: 100;
-font-style: normal;
+    font-weight: 100;
+    font-style: normal;
     color:var(--accent1);
     font-size: 1.5rem;
+    margin: 10px;
+}
+body{
+    background-color: var(--accent2);
 }
 
 #root{
     display: flex;
-    flex-direction: column;
+     flex-direction: column; 
     background-color: var(--accent2);
-    height: 100vh;
+    margin-left:220px;
+    margin-right:220px
+
 }
 .box{
-    display: flex;
-    flex-direction: row;
-    height: 6.5rem;
-    width: 38rem;
-    border: 2px solid var(--accent1) ;
-    margin: 10px;
-}
-.box-child{
-    height: 6.rem;
-    width: 12.6rem;
+    height: 7rem;
     border: 1px solid var(--accent1) ;
 }
 
-
-hr{
-  margin-top: 3rem;
+.box1{
+    height: 3.5rem;
+    border: 1px solid var(--accent1) ;
 }
+
+.box-child{
+    height: 7rem;
+    border: 1px solid var(--accent1) ;
+}
+
+p{
+    color: var(--accent3)
+}
+
+.designEl{
+    width: 95px;
+    height: 2rem;
+}
+
+.headShot{
+    height: 100px;
+    width: 100px;
+}
+
 
