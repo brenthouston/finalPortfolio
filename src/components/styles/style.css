@@ -26,8 +26,8 @@ font-style: normal; */
 
 :root {
     --accent1: #ADADAD;
-    --accent2: #000000;
-    --accent3: #6edff6;
+    --accent2: #0f110f;
+    --accent3: #50a4f2;
    
 }
 
@@ -50,6 +50,13 @@ a:visited{
     color:var(--accent1);
 }
 
+a:hover{
+    color: var(--accent3) !important;
+}
+
+a:active{
+    color: var(--accent3) !important;
+}
 
 h1 {
     font-family: "filson-pro", sans-serif;
@@ -127,4 +134,16 @@ p{
     width: 100px;
 }
 
+label{
+font-family: "canada-type-gibson", sans-serif;
+font-weight: 100;
+font-style: normal;
+color: var(--accent1);
+margin: 5px;
+}
 
+button{
+    background-color: var(--accent3) !important;
+    margin-top: 8px;
+    color:var(--accent2) !important;
+}
