@@ -1,7 +1,7 @@
 
 import '../styles/style.css';
-import { useState } from "react";
-import validateEmail from '../../utils/helpers'
+import { useState, useRef } from "react";
+import {validateEmail} from '../../utils/helpers'
 
 
 
@@ -10,30 +10,57 @@ export default function Contact(){
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
+    const [error,setError]= useState(false);
+    const [showErrorText, setShowErrorText] = useState(false)
+
+    function style(error){
+        if (error){
+            return {backgroundColor: "rgba(255, 0, 0, 0.5"}
+        }
+    }
+
 
     const handleChange = (e)=>{
-        const { target };
+        const { target }= e;
         const inputType = target.name;
         const inputValue = target.value;
 
+    
+
         if(inputType === 'email'){
-            setEmail(inputValue);
+                setEmail(inputValue);
+        
+
         } else if(inputType === 'name'){
             setName(inputValue);
-        }else {
+        }else if (inputType ==='message'){
             setMessage(inputValue);
+        }else{
+            return 
         }
     };
     const handleSubmit = (e) => {
         e.preventDefault();
 
         if(!validateEmail(email)) {
-            setErrorMessage('Email is invalid');
+            alert('Email is invalid');
             return;
         }
         
+        if(name.trim().length ==0){
+            alert('Name is a required field')
+        }else if(message.trim().length == 0){
+            alert('Please enter a message')
+        }else{
+            alert('🎉 Thank you for reaching out! You will hear from me soon!')
+            setName('');
+            setEmail('');
+            setMessage('');
+
+        }
+        
     };
-};
+
 
     return(
     
@@ -47,7 +74,14 @@ export default function Contact(){
             <div class="form-group">
               <label class="col-md-3 control-label" for="name">Name</label>
               <div class="col-md-9">
-                <input id="name" name="name" type="text" placeholder="Your name" class="form-control" onChange={handleChange}/>
+                <input id="name" 
+                name="name" 
+                value={name}
+                type="text" 
+                placeholder="Your name" 
+                class="form-control" 
+                pattern="((.|\n)*)"
+                onChange={handleChange}/>
               </div>
             </div>
             
@@ -55,7 +89,13 @@ export default function Contact(){
             <div class="form-group">
               <label class="col-md-3 control-label" for="email">Your E-mail</label>
               <div class="col-md-9">
-                <input id="email" name="email" type="text" placeholder="Your email" class="form-control" onChange={handleChange}/>
+                <input id="email" 
+                name="email" 
+                value={email}
+                type="text" 
+                placeholder="Your email" 
+                class="form-control" 
+                onChange={handleChange}/>
               </div>
             </div>
 
@@ -63,14 +103,23 @@ export default function Contact(){
             <div class="form-group">
               <label class="col-md-3 control-label" for="message">Your message</label>
               <div class="col-md-9">
-                <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                <textarea class="form-control" 
+                id="message" 
+                name="message" 
+                value={message}
+                placeholder="Please enter your message here..." 
+                rows="5"
+                onChange={handleChange}
+                ></textarea>
               </div>
             </div>
 
             {/* Submit */}
             <div class="form-group">
               <div class="col-md-12 text-right">
-                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                <button type="submit" 
+                onClick={handleSubmit}
+                class="btn btn-primary btn-lg">Submit</button>
               </div>
             </div>
         
