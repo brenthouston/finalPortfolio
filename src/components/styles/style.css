@@ -26,19 +26,25 @@ font-style: normal; */
 
 :root {
     --accent1: #ADADAD;
-    --accent2: #0f110f;
-    --accent3: #50a4f2;
+    --accent2: #070712;
+    --accent3: #5dbff4;
    
 }
 
 .text{
-   padding: 40px;
+   padding: 10px;
     justify-content: center;
 
 
 }
 
+.footer{
+    display:flex;
+    align-items: center;
+    width:100%;
+    height: 8rem;
 
+}
 
 a:link{
     text-decoration: none;
@@ -144,6 +150,7 @@ margin: 5px;
 
 button{
     background-color: var(--accent3) !important;
-    margin-top: 8px;
+    margin-top: 15px;
     color:var(--accent2) !important;
+    border:none !important;
 }

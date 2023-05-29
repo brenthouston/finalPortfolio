@@ -6,7 +6,7 @@ import NotFound from './components/pages/NotFound'
 import Portfolio from './components/pages/Portfolio'
 import Resume from './components/pages/Resume'
 import NavTabs from './components/NavTabs'
-
+import Footer from './components/Footer'
 
 
 
@@ -21,7 +21,9 @@ const App = () => {
           <Route path='/Portfolio' element={<Portfolio/>}/>
           <Route path='/Resume' element={<Resume/>}/>
         </Routes>
+        <Footer/>
     </BrowserRouter>
+
   );
 }
 

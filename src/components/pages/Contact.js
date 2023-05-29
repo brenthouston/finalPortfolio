@@ -1,6 +1,6 @@
 
 import '../styles/style.css';
-import { useState, useRef } from "react";
+import { useState } from "react";
 import {validateEmail} from '../../utils/helpers'
 
 
@@ -10,14 +10,9 @@ export default function Contact(){
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
-    const [error,setError]= useState(false);
-    const [showErrorText, setShowErrorText] = useState(false)
 
-    function style(error){
-        if (error){
-            return {backgroundColor: "rgba(255, 0, 0, 0.5"}
-        }
-    }
+
+ 
 
 
     const handleChange = (e)=>{
@@ -67,7 +62,7 @@ export default function Contact(){
         <div>
             <div > 
                 <h1 style={{fontSize: 52}}>Contact Me</h1>
-                <p>Do you have any questions for me? Please do not hesitate to reach out.👋🏼</p>
+                <p>Have you any questions? Please do not hesitate to contact me.👋🏼</p>
             </div>
 
             {/* Name */}
