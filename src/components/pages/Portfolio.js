@@ -3,8 +3,9 @@ import "../styles/style.css";
 
 export default function Portfolio() {
   return (
-    <div className="container-fluid my-5">
+    <div className="container-fluid ">
         {/* hashtag adulting */}
+        <h1 style={{fontSize: 52}}>Portfolio</h1>
       <div className="card mb-3 mt-4">
         <div className="row g-0">
           <div className="col-md-4">
