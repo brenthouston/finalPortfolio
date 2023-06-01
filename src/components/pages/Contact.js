@@ -42,9 +42,9 @@ export default function Contact(){
             return;
         }
         
-        if(name.trim().length ==0){
+        if(name.trim().length === 0){
             alert('Name is a required field')
-        }else if(message.trim().length == 0){
+        }else if(message.trim().length === 0){
             alert('Please enter a message')
         }else{
             alert('🎉 Thank you for reaching out! You will hear from me soon!')
