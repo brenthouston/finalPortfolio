@@ -20,8 +20,8 @@ export default function Portfolio() {
             <div
               className="card-body"
               style={{
-                background: "var(--accent1)",
-                color: "var(--accent2)",
+                background: "#131c21",
+                color: "var(--accent1)",
                 height: "264px",
                 borderTopRightRadius: "6px",
                 borderBottomRightRadius: "6px",
@@ -34,20 +34,20 @@ export default function Portfolio() {
               >
                 Hashtag Adulting
               </h4>
-              <p className="card-text m-3">
+              <p className="card-text ">
                
                 During the development of #Adulting, we leveraged cutting-edge
                 technologies to enhance user experience and functionality. We
                 utilized handlebars to efficiently template out web pages,
                 providing a seamless and intuitive interface for our users.
               </p>
-              <div className="d-flex justify-content-end mt-4">
+              <div className="d-flex justify-content-end ">
                 <a
                   href="https://hashtag-adulting.herokuapp.com/"
                   class="btn"
                   style={{
-                    background: "var(--accent2)",
-                    color: "var(--accent3)",
+                    background: "var(--accent3)",
+                    color: "var(--accent2)",
                     margin:"15px"
                   }}
                 >
@@ -57,8 +57,8 @@ export default function Portfolio() {
                   href="https://github.com/brenthouston/hashtag-adulting"
                   class="btn"
                   style={{
-                    background: "var(--accent2)",
-                    color: "var(--accent3)",
+                    background: "var(--accent3)",
+                    color: "var(--accent2)",
                     margin:"15px"
                   }}
                 >

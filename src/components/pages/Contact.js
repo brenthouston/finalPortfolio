@@ -71,6 +71,7 @@ export default function Contact(){
               <div class="col-md-9">
                 <input id="name" 
                 name="name" 
+                style={{background:'var(--accent1)'}}
                 value={name}
                 type="text" 
                 placeholder="Your name" 
@@ -84,7 +85,7 @@ export default function Contact(){
             <div class="form-group">
               <label class="col-md-3 control-label" for="email">Your E-mail</label>
               <div class="col-md-9">
-                <input id="email" 
+                <input style={{background:'var(--accent1)'}} id="email" 
                 name="email" 
                 value={email}
                 type="text" 
@@ -99,6 +100,7 @@ export default function Contact(){
               <label class="col-md-3 control-label" for="message">Your message</label>
               <div class="col-md-9">
                 <textarea class="form-control" 
+                style={{background:'var(--accent1)'}}
                 id="message" 
                 name="message" 
                 value={message}
