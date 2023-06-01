@@ -1,15 +1,20 @@
 import React from "react";
 import "../styles/style.css";
+import ResDownload from "./ResDownload";
+
+
 
 export default function Resume() {
+
+
   return (
     <div className="container resume col mt-5">
+       <ResDownload/>
       <div className="info row text-center">
-        <h2>Brent Houston</h2> <p style={{ margin: 0 }}>Seattle, WA</p> Phone:
-        773-988-2768 | Email: brentjustinhouston@gmail.com LinkedIn:
-        https://www.linkedin.com/in/brent-houston-53291a13/ | GitHub:
-        github.com/brenthouston | Portfolio:
-        https://brenthouston.github.io/Portfolio/
+        <h2>Brent Houston</h2> <p style={{ margin: 0 }}>Seattle, WA
+        </p> 
+        <p>Phone:773-988-2768 | Email: brentjustinhouston@gmail.com </p>
+        
       </div>
       <div>
         <h4>Summary</h4> Experienced Full Stack Developer with a diverse
