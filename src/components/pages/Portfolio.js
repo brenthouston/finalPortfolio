@@ -12,7 +12,7 @@ export default function Portfolio() {
             <img
               src="./CosmicDaily.png"
               className="img-fluid rounded-start"
-              alt="image of app"
+              alt="app"
             
             ></img>
           </div>
@@ -74,7 +74,7 @@ export default function Portfolio() {
             <img
               src="./Quizatron.png"
               className="img-fluid rounded-start"
-              alt="image of app"
+              alt="app"
               style={{height:"264px"}}
             ></img>
           </div>
@@ -136,7 +136,7 @@ export default function Portfolio() {
             <img
               src="./StockQuote.png"
               className="img-fluid rounded-start"
-              alt="image of app"
+              alt="app"
               style={{height:"264px"}}
             ></img>
           </div>
@@ -198,7 +198,7 @@ export default function Portfolio() {
             <img
               src="./Hashtag.png"
               className="img-fluid rounded-start"
-              alt="image of app"
+              alt="app"
           
             ></img>
           </div>
@@ -263,7 +263,7 @@ export default function Portfolio() {
             <img
               src="./TechBLog.png"
               className="img-fluid rounded-start"
-              alt="image of app"
+              alt="app"
               style={{height:"264px"}}
             ></img>
           </div>
@@ -325,7 +325,7 @@ export default function Portfolio() {
             <img
               src="./Readme.png"
               className="img-fluid rounded-start"
-              alt="image of app"
+              alt="app"
               
             ></img>
           </div>
