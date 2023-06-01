@@ -6,7 +6,7 @@ export default function Portfolio() {
     <div className="container-fluid ">
         {/* Cosmic Daily */}
         <h1 style={{fontSize: 52}}>Portfolio</h1>
-      <div className="card mb-3 mt-4">
+      <div className="card mb-3 mt-4 " style={{background:"#131c21"}}>
         <div className="row g-0">
           <div className="col-md-4">
             <img
@@ -68,7 +68,7 @@ export default function Portfolio() {
 
         {/* Quizatron */}
         
-      <div className="card mb-3 mt-4">
+      <div className="card mb-3 mt-4" style={{background:"#131c21"}}>
         <div className="row g-0">
           <div className="col-md-4">
             <img
@@ -130,7 +130,7 @@ export default function Portfolio() {
       </div>
         {/*StockQuote */}
         
-      <div className="card mb-3 mt-4">
+      <div className="card mb-3 mt-4" style={{background:"#131c21"}}>
         <div className="row g-0">
           <div className="col-md-4">
             <img
@@ -192,14 +192,14 @@ export default function Portfolio() {
       </div>
         {/* hashtag adulting */}
         
-      <div className="card mb-3 mt-4">
+      <div className="card mb-3 mt-4" style={{background:"#131c21"}}>
         <div className="row g-0">
           <div className="col-md-4">
             <img
               src="./Hashtag.png"
               className="img-fluid rounded-start"
               alt="image of app"
-              style={{height:"264px"}}
+          
             ></img>
           </div>
           <div className="col-md-8">
@@ -257,7 +257,7 @@ export default function Portfolio() {
       </div>
         {/* TechBlog */}
         
-      <div className="card mb-3 mt-4">
+      <div className="card mb-3 mt-4" style={{background:"#131c21"}}>
         <div className="row g-0">
           <div className="col-md-4">
             <img
@@ -319,7 +319,7 @@ export default function Portfolio() {
       </div>
         {/* Readme Gen*/}
         
-      <div className="card mb-3 mt-4">
+      <div className="card mb-3 mt-4" style={{background:"#131c21"}}>
         <div className="row g-0">
           <div className="col-md-4">
             <img
