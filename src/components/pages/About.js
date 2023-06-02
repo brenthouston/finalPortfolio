@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/style.css";
-import headShot from "../images/headShot.png";
-import Port_dsgn from "../images/Port_dsgn.png";
+import headShot from "../../images/headShot.png";
+import Port_dsgn from "../../images/Port_dsgn.png";
 
 export default function About() {
   return (

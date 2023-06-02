@@ -123,7 +123,7 @@ body{
     border: 1px solid var(--accent1) ;
 }
 
-p{
+p.intro, p.contact{
     color: var(--accent3)
 }
 
@@ -153,4 +153,46 @@ button{
     margin-top: 15px;
     color:var(--accent2) !important;
     border:none !important;
+}
+
+.nav-link.active{
+    color:var(--accent3) !important;
+    background-color: var(--accent2) !important;
+    border-color: var(--accent1)!important;
+    border-bottom: 5px solid var(--accent2) !important;
+}
+
+.nav-tabs .nav-link{
+    border: var(--accent1 nav-tabs-border-width) solid transparent;
+}
+.nav-tabs{
+    --bs-nav-tabs-border-color: var(--accent1);
+}
+
+.resume{
+    color:var(--accent1)
+}
+.resume h4{
+    text-align: center;
+    margin-top:2rem;
+}
+ul{
+    list-style: none;
+}
+
+h2{
+    font-size: 2rem;
+    font-family: "adelle-sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: var(--accent1);
+    padding:40px;
+    text-align: center;
+}
+
+.portCard{
+    color:var(--accent1);
+    padding-left:30px;
+    padding-right:30px;
+   
 }

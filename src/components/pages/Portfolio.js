@@ -1,11 +1,11 @@
 import React from "react";
 import "../styles/style.css";
-import Cosmic from "../images/CosmicDaily.png"
-import HashTag from "../images/Hashtag.png"
-import Quiz from "../images/Quizatron.png"
-import Read from "../images/Readme.png"
-import Stock from "../images/StockQuote.png"
-import Tech from "../images/TechBLog.png"
+import Cosmic from "../../images/CosmicDaily.png"
+import HashTag from "../../images/Hashtag.png"
+import Quiz from "../../images/Quizatron.png"
+import Read from "../../images/Readme.png"
+import Stock from "../../images/StockQuote.png"
+import Tech from "../../images/TechBLog.png"
 
 export default function Portfolio() {
   return (
