@@ -1,5 +1,11 @@
 import React from "react";
 import "../styles/style.css";
+import Cosmic from "../images/CosmicDaily.png"
+import HashTag from "../images/Hashtag.png"
+import Quiz from "../images/Quizatron.png"
+import Read from "../images/Readme.png"
+import Stock from "../images/StockQuote.png"
+import Tech from "../images/TechBLog.png"
 
 export default function Portfolio() {
   return (
@@ -10,7 +16,7 @@ export default function Portfolio() {
         <div className="row g-0">
           <div className="col-md-4">
             <img
-              src="./CosmicDaily.png"
+              src={Cosmic}
               className="img-fluid rounded-start"
               alt="app"
             
@@ -72,7 +78,7 @@ export default function Portfolio() {
         <div className="row g-0">
           <div className="col-md-4">
             <img
-              src="./Quizatron.png"
+              src={Quiz}
               className="img-fluid rounded-start"
               alt="app"
               style={{height:"264px"}}
@@ -134,7 +140,7 @@ export default function Portfolio() {
         <div className="row g-0">
           <div className="col-md-4">
             <img
-              src="./StockQuote.png"
+              src={Stock}
               className="img-fluid rounded-start"
               alt="app"
               style={{height:"264px"}}
@@ -196,7 +202,7 @@ export default function Portfolio() {
         <div className="row g-0">
           <div className="col-md-4">
             <img
-              src="./Hashtag.png"
+              src={HashTag}
               className="img-fluid rounded-start"
               alt="app"
           
@@ -261,7 +267,7 @@ export default function Portfolio() {
         <div className="row g-0">
           <div className="col-md-4">
             <img
-              src="./TechBLog.png"
+              src={Tech}
               className="img-fluid rounded-start"
               alt="app"
               style={{height:"264px"}}
@@ -323,7 +329,7 @@ export default function Portfolio() {
         <div className="row g-0">
           <div className="col-md-4">
             <img
-              src="./Readme.png"
+              src={Read}
               className="img-fluid rounded-start"
               alt="app"
               
