@@ -6,12 +6,77 @@ import Quiz from "../../images/Quizatron.png"
 import Read from "../../images/Readme.png"
 import Stock from "../../images/StockQuote.png"
 import Tech from "../../images/TechBLog.png"
+import FinHub from "../../images/FinHub.jpg"
 
 export default function Portfolio() {
   return (
+
+
     <div className="container-fluid ">
-        {/* Cosmic Daily */}
+       <div className="container-fluid ">
+        {/* FinHub */}
         <h1 style={{fontSize: 52}}>Portfolio</h1>
+      <div className="card mb-3 mt-4 " style={{background:"#131c21"}}>
+        <div className="row g-0">
+          <div className="col-md-4">
+            <img
+              src={FinHub}
+              className="img-fluid rounded-start"
+              alt="app"
+            
+            ></img>
+          </div>
+          <div className="col-md-8">
+            <div
+              className="card-body"
+              style={{
+                background: "#131c21",
+                color: "var(--accent1)",
+                borderTopRightRadius: "6px",
+                borderBottomRightRadius: "6px",
+                borderLeft:"1px solid var(accent1)"
+              }}
+            >
+              <h4
+                className="card-title"
+                style={{ color: "var(--accent)", padding: "10px", fontWeight:"bolder", fontSize:"2.25rem"}}
+              >
+                FinHub
+              </h4>
+              <p className="card-text">
+               
+              FinHub is a social media platform built by the investing community for the investing community. We strive to create a space where individuals can share their thoughts and ideas with other in the community. Users can create profiles for themselves when they sign up and add stocks to their watch list for other to come view their profile and watchlist. Users are able to look up tickers and get intra-day stock information to better analyze if those tickers are deserving of join their watch list. As FinHub is focused on building connections and sharing ideas, users can go into ChatHub where users can join topic specific chat rooms to live chat with other users!              </p>
+              <div className="d-flex justify-content-end ">
+                <a
+                  href="https://finnhub.netlify.app/home"
+                  class="btn"
+                  style={{
+                    background: "var(--accent3)",
+                    color: "var(--accent2)",
+                    margin:"15px"
+                  }}
+                >
+                  Visit Site
+                </a>
+                <a
+                  href="https://github.com/brenthouston/finnhub-frontend"
+                  class="btn"
+                  style={{
+                    background: "var(--accent3)",
+                    color: "var(--accent2)",
+                    margin:"15px"
+                  }}
+                >
+                  Visit Repo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        {/* Cosmic Daily */}
+    
       <div className="card mb-3 mt-4 " style={{background:"#131c21"}}>
         <div className="row g-0">
           <div className="col-md-4">
@@ -384,6 +449,7 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
