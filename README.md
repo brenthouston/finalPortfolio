@@ -18,7 +18,7 @@
   * [Questions](#questions)
     
 ## Installation
-  Visit https://glittering-pika-9b2aec.netlify.app/ to view my site.
+  Visit https://brenthouston.netlify.app/ to view my site.
     
 ## Usage
   [Video walk through](https://drive.google.com/file/d/18tF1flWqqRtT8KfiDrK6Ig0sMxKjIYXc/view)
