@@ -211,10 +211,9 @@ h2 {
     display: flex;
     flex-wrap: wrap;
   }
-  .img-fluid{
-    width:100vw;
-    height:fit-content;
-  }
+ .container-fluid{
+  max-width:296px;
+ }
  
   
 }

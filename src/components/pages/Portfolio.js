@@ -165,7 +165,7 @@ export default function Portfolio() {
                 className="card-title"
                 style={{ color: "var(--accent)", padding: "10px", fontWeight:"bolder", fontSize:"2.25rem"}}
               >
-                Quizatron2000
+                Quizatron 2000
               </h4>
               <p className="card-text ">
                
