@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/style.css";
 import headShot from "../../images/headShot.png";
 import Port_dsgn from "../../images/Port_dsgn.png";
-import { Container } from "react-dom";
+
 
 export default function About() {
   return (
