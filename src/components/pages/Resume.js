@@ -4,18 +4,19 @@ import ResDownload from "./ResDownload";
 
 export default function Resume() {
   return (
+      <div className="info">
     <div className="container resume col">
       <div className="container">
         <div className="row d-flex justify-content-between">
           <div className="col">
-            <h1 style={{ fontSize: 52 }}>Resume</h1>
+            <h1 style={{ fontSize: "52px" }}>Resume</h1>
           </div>
           <div className="col d-flex justify-content-end align-self-center" style={{ marginTop: '60px'}}>
             <ResDownload />
           </div>
         </div>
       </div>
-      <div className="info row text-center">
+      <div className=" row mx-auto text-center">
         <h2>Brent Houston</h2> <p style={{ margin: 0 }}>Seattle, WA</p>
         <p>Phone:773-988-2768 | Email: brentjustinhouston@gmail.com </p>
       </div>
@@ -201,6 +202,7 @@ export default function Resume() {
       – UW Professor, Joe Rehfuss <h4>Interests</h4> Chess (Rating 1617), Day
       Trading & Swing Trading, Oil painting (brenthouston.com), Coed softball
       league
+      </div>
     </div>
   );
 }

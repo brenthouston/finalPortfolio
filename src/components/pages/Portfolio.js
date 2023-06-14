@@ -12,8 +12,8 @@ export default function Portfolio() {
   return (
 
 
-    <div className="container-fluid ">
-       <div className="container-fluid ">
+    <div className="container">
+       <div className="container-fluid">
         {/* FinHub */}
         <h1 style={{fontSize: 52}}>Portfolio</h1>
       <div className="card mb-3 mt-4 " style={{background:"#131c21"}}>

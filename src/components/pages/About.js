@@ -2,18 +2,19 @@ import React from "react";
 import "../styles/style.css";
 import headShot from "../../images/headShot.png";
 import Port_dsgn from "../../images/Port_dsgn.png";
+import { Container } from "react-dom";
 
 export default function About() {
   return (
-    <div>
-      <div>
-        <h1 className="container text-center">PORTFOLIO</h1>
+    <div className="container">
+      <div className="col-12">
+        <h1 className="text-center">Portfolio</h1>
       </div>
 
       {/* Name and Role box */}
       <div className=" row mx-5">
         {/* box left */}
-        <div className="box col">
+        <div className="box col" style={{ minWidth: "287px" }}>
           <div className="row mt-2 d-flex align-items-center justify-content-center">
             <h3 id="me">BRENT HOUSTON</h3>
             <h4 className="mt-n-1" id="role">
@@ -23,7 +24,7 @@ export default function About() {
         </div>
 
         {/* box middle     */}
-        <div className="col-md-auto">
+        <div className="col-md-auto" style={{ minWidth: "287px" }}>
           <div className="row">
             <div className="box1 d-flex align-items-center justify-content-center">
               <img
@@ -41,7 +42,10 @@ export default function About() {
         </div>
 
         {/* box right */}
-        <div className="box col col-lg-2 d-flex align-items-center justify-content-center">
+        <div
+          className="box col col-lg-2 d-flex align-items-center justify-content-center"
+          style={{ minWidth: "287px" }}
+        >
           <img className="headShot " src={headShot} alt="my headshot" />
         </div>
       </div>
