@@ -146,7 +146,7 @@ export default function Portfolio() {
               src={Quiz}
               className="img-fluid rounded-start"
               alt="app"
-              style={{height:"264px"}}
+             
             ></img>
           </div>
           <div className="col-md-8">
@@ -155,7 +155,7 @@ export default function Portfolio() {
               style={{
                 background: "#131c21",
                 color: "var(--accent1)",
-                height: "264px",
+             
                 borderTopRightRadius: "6px",
                 borderBottomRightRadius: "6px",
                 borderLeft:"1px solid var(accent1)"
@@ -208,7 +208,7 @@ export default function Portfolio() {
               src={Stock}
               className="img-fluid rounded-start"
               alt="app"
-              style={{height:"264px"}}
+              
             ></img>
           </div>
           <div className="col-md-8">
@@ -279,7 +279,7 @@ export default function Portfolio() {
               style={{
                 background: "#131c21",
                 color: "var(--accent1)",
-                height: "264px",
+                
                 borderTopRightRadius: "6px",
                 borderBottomRightRadius: "6px",
                 borderLeft:"1px solid var(accent1)"
@@ -328,14 +328,14 @@ export default function Portfolio() {
       </div>
         {/* TechBlog */}
         
-      <div className="card mb-3 mt-4" style={{background:"#131c21"}}>
+      <div id="tech" className="card mb-3 mt-4" style={{background:"#131c21"}}>
         <div className="row g-0">
           <div className="col-md-4">
             <img
               src={Tech}
               className="img-fluid rounded-start"
               alt="app"
-              style={{height:"264px"}}
+              
             ></img>
           </div>
           <div className="col-md-8">

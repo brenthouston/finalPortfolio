@@ -8,7 +8,7 @@ export default function About() {
   return (
     <div className="container">
       <div className="col-12">
-        <h1 className="text-center">Portfolio</h1>
+        <h1 className="text-center"style={{fontSize: 52}}>About Me</h1>
       </div>
 
       {/* Name and Role box */}
