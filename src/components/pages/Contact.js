@@ -59,7 +59,7 @@ export default function Contact(){
 
     return(
     
-        <div className='container'>
+        <div className='container contact'>
             <div > 
                 <h1 style={{fontSize: 52}}>Contact Me</h1>
                 <p className='contact'>Have you any questions? Please do not hesitate to contact me.👋🏼</p>

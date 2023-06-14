@@ -214,6 +214,9 @@ h2 {
  .container-fluid{
   max-width:296px;
  }
+ .container.contact{
+  max-width: 330px;
+ }
  
   
 }
