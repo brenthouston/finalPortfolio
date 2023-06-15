@@ -212,10 +212,13 @@ h2 {
     flex-wrap: wrap;
   }
  .container-fluid{
-  max-width:296px;
+  min-width:350px;
  }
  .container.contact{
-  max-width: 330px;
+  min-width: 350px;
+ }
+ .img-fluid{
+  width: 100vw;
  }
  
   
