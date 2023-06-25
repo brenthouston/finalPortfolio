@@ -7,6 +7,7 @@ import Read from "../../images/Readme.png"
 import Stock from "../../images/StockQuote.png"
 import Tech from "../../images/TechBLog.png"
 import FinHub from "../../images/FinHub.jpg"
+import Hinge from "../../images/Hinge.png"
 
 export default function Portfolio() {
   return (
@@ -14,8 +15,60 @@ export default function Portfolio() {
 
     <div className="container">
        <div className="container-fluid">
+      <h1 style={{fontSize: 52}}>Portfolio</h1>
+      {/* Hinge Gallery */}
+      <div className="card mb-3 mt-4 " style={{background:"#131c21"}}>
+        <div className="row g-0">
+          <div className="col-md-4">
+            <img
+              src={Hinge}
+              className="img-fluid rounded-start"
+              alt="app"
+            
+            ></img>
+          </div>
+          <div className="col-md-8">
+            <div
+              className="card-body"
+              style={{
+                background: "#131c21",
+                color: "var(--accent1)",
+                borderTopRightRadius: "6px",
+                borderBottomRightRadius: "6px",
+                borderLeft:"1px solid var(accent1)"
+              }}
+            >
+              <h4
+                className="card-title"
+                style={{ color: "var(--accent)", padding: "10px", fontWeight:"bolder", fontSize:"2.25rem"}}
+              >
+                Hinge Gallery
+              </h4>
+              <p className="card-text">
+               
+              Welcome to Hinge Gallery, the e-commerce platform representing the brick and mortor shop that I have owned and operated for over 10 years. Developed using Shopify, HG is a user-friendly website that offers a seemless shopping experience for art collectors and image lovers looking for unique fine art prints and posters. The site highlights a clean, minimalistic design for easy site navigation. The user can search the collection, brouse all or various collecitons of artworks. Each art piece has a unique and thoughtful description as well as detail and editorial photos.  The site features a dynamically responsive interface, extensive art collection, ability to create user accounts, and a secure payment and checkout process.                 </p>
+              <div className="d-flex justify-content-end ">
+                <a
+                  href="https://www.hingegallery.com/"
+                  class="btn"
+                  style={{
+                    background: "var(--accent3)",
+                    color: "var(--accent2)",
+                    margin:"15px"
+                  }}
+                >
+                  Visit Site
+                </a>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
         {/* FinHub */}
-        <h1 style={{fontSize: 52}}>Portfolio</h1>
+
       <div className="card mb-3 mt-4 " style={{background:"#131c21"}}>
         <div className="row g-0">
           <div className="col-md-4">

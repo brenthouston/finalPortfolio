@@ -41,7 +41,7 @@ export default function Resume() {
       </p>{" "}
       <p style={{ color: "var(--accent3)", margin: 0 }}>
         <strong>Tools:</strong> Node.js, JQuery, React, Node, MS Office, Adobe
-        Creative Suite
+        Creative Suite, VS Code
       </p>
       <h4>Relevant Experience</h4>{" "}
       <ul>
@@ -52,7 +52,7 @@ export default function Resume() {
         <li>2012-2020</li>
         <li>
           <strong>Hinge Gallery</strong>{" "}
-          <p style={{ textAlign: "right" }}>Chicago,IL</p>{" "}
+          <p style={{ textAlign: "right" }}>Vashon, WA</p>{" "}
         </li>
       </ul>
       <p>
@@ -173,10 +173,10 @@ export default function Resume() {
           {" "}
           <strong>University of Washington</strong>
         </li>
-        <p style={{ textAlign: "right" }}>Phoenix, AZ</p>
+        <p style={{ textAlign: "right" }}>Seattle, WA</p>
       </ul>{" "}
       Seattle, WA A 24-week intensive program focused on gaining technical
-      programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap,
+      programming skills in HTML5, CSS3, Javascript, jQuery, Bootstrap,
       Firebase, Node.js, MySQL, MongoDB, Express, Handelbars.js, and ReactJS.
       <ul>
         <li>
