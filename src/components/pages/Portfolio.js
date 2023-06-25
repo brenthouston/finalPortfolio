@@ -8,6 +8,7 @@ import Stock from "../../images/StockQuote.png"
 import Tech from "../../images/TechBLog.png"
 import FinHub from "../../images/FinHub.jpg"
 import Hinge from "../../images/Hinge.png"
+import BH from "../../images/BH.png"
 
 export default function Portfolio() {
   return (
@@ -16,6 +17,9 @@ export default function Portfolio() {
     <div className="container">
        <div className="container-fluid">
       <h1 style={{fontSize: 52}}>Portfolio</h1>
+
+
+
       {/* Hinge Gallery */}
       <div className="card mb-3 mt-4 " style={{background:"#131c21"}}>
         <div className="row g-0">
@@ -50,6 +54,58 @@ export default function Portfolio() {
               <div className="d-flex justify-content-end ">
                 <a
                   href="https://www.hingegallery.com/"
+                  class="btn"
+                  style={{
+                    background: "var(--accent3)",
+                    color: "var(--accent2)",
+                    margin:"15px"
+                  }}
+                >
+                  Visit Site
+                </a>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      {/* Painting Website */}
+      <div className="card mb-3 mt-4 " style={{background:"#131c21"}}>
+        <div className="row g-0">
+          <div className="col-md-4">
+            <img
+              src={BH}
+              className="img-fluid rounded-start"
+              alt="app"
+            
+            ></img>
+          </div>
+          <div className="col-md-8">
+            <div
+              className="card-body"
+              style={{
+                background: "#131c21",
+                color: "var(--accent1)",
+                borderTopRightRadius: "6px",
+                borderBottomRightRadius: "6px",
+                borderLeft:"1px solid var(accent1)"
+              }}
+            >
+              <h4
+                className="card-title"
+                style={{ color: "var(--accent)", padding: "10px", fontWeight:"bolder", fontSize:"2.25rem"}}
+              >
+                Fine Arts Portfolio
+              </h4>
+              <p className="card-text">
+               
+              Fine art portfolio featuring paintings by me, Brent Houston. Developed using Shopify, this site is intuitive for the user and demonstrates fully responsive design.     </p>
+              <div className="d-flex justify-content-end ">
+                <a
+                  href="https://www.brenthouston.com/"
                   class="btn"
                   style={{
                     background: "var(--accent3)",
