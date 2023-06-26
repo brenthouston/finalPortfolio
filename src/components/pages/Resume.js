@@ -21,38 +21,58 @@ export default function Resume() {
         <p>Phone:773-988-2768 | Email: brentjustinhouston@gmail.com </p>
       </div>
       <div>
-        <h4>Summary</h4> Experienced Full Stack Developer with a diverse
-        background including entrepreneurship and a fine arts degree from The
-        School of the Art Institute of Chicago. Possesses a decade of experience
-        as a successful picture framing business owner, with a proven track
-        record of building a loyal client base, managing the supply chain, and
-        overseeing projects from start to finish. Utilized discipline, focus,
-        and teamwork skills developed as a collegiate baseball pitcher to excel
-        in entrepreneurial endeavors. Self-taught in successful stock market
-        trading, highlighting expertise in careful analysis and risk management.
-        Recently made a career pivot to pursue a passion for software
-        engineering, bringing project management experience and creativity to
-        this new field. Eager to continue learning and growing while applying
-        skills to contribute to a dynamic team.
+        <h4>Summary</h4> Experienced Full Stack Developer and Designer with a diverse background including entrepreneurship and a fine arts
+degree from The School of the Art Institute of Chicago. Possess a decade of experience as a successful business
+owner, with a proven track record of building a loyal client base, overseeing design projects from start to finish, and
+managing business functions. Utilize discipline, focus, and teamwork skills developed as a collegiate baseball
+pitcher to excel in entrepreneurship. Successful stock market trader, highlighting expertise in strategy, analysis, and
+risk management.
       </div>
       <h4>Technical Skills</h4>
       <p style={{ color: "var(--accent3)", margin: 0 }}>
         <strong>Languages:</strong> JavaScript, HTML, CSS, SQL
       </p>{" "}
       <p style={{ color: "var(--accent3)", margin: 0 }}>
-        <strong>Tools:</strong> Node.js, JQuery, React, Node, MS Office, Adobe
+        <strong>Tools:</strong> Node.js, jQuery, React, Node, MS Office, Adobe
         Creative Suite, VS Code
       </p>
+      <h4>Education</h4>
+      <ul>
+        <li>
+          {" "}
+          <strong>Boot Camp Certificate</strong>
+        </li>
+        <li>
+          {" "}
+          <strong>University of Washington</strong><span style={{ float: "right" }}>Seattle, WA</span>
+        </li>
+      
+      </ul>{" "}
+      <div>   Seattle, WA A 24-week intensive program focused on gaining technical
+      programming skills in HTML5, CSS3, Javascript, jQuery, Bootstrap,
+      Firebase, Node.js, MySQL, MongoDB, Express, Handelbars.js, and ReactJS.</div>
+   
+      <br />
+      <ul>
+        <li>
+          {" "}
+          <strong>Art Institute of Chicago</strong> <span style={{ float: "right" }}>Chicago, IL</span>
+       
+        </li>
+
+      </ul>{" "}
+      Bachelor of Fine Arts (BFA)
+
       <h4>Relevant Experience</h4>{" "}
       <ul>
         <li>
           {" "}
           <strong>Owner/Entrepreneur</strong>
         </li>
-        <li>2012-2020</li>
+        <li>2012-2023</li>
         <li>
-          <strong>Hinge Gallery</strong>{" "}
-          <p style={{ textAlign: "right" }}>Vashon, WA</p>{" "}
+          <strong>Hinge Gallery</strong><span style={{ float: "right" }}>Vashon, WA</span>
+         
         </li>
       </ul>
       <p>
@@ -128,8 +148,8 @@ export default function Resume() {
         </li>
         <li>2005-2012</li>
         <li>
-          <strong>Alley Gallery</strong>{" "}
-          <p style={{ textAlign: "right" }}>Evanston,IL</p>{" "}
+          <strong>Alley Gallery</strong><span style={{ float: "right" }}>Evanston, IL</span>
+          
         </li>
       </ul>
       <ul>
@@ -149,8 +169,8 @@ export default function Resume() {
         </li>
         <li>2003-2004</li>
         <li>
-          <strong>Picture Perfect</strong>{" "}
-          <p style={{ textAlign: "right" }}>Phoenix, AZ</p>{" "}
+          <strong>Picture Perfect</strong><span style={{ float: "right" }}>Phoenix, AZ</span>
+          
         </li>
       </ul>
       <ul>
@@ -163,30 +183,7 @@ export default function Resume() {
           reports.
         </li>
       </ul>
-      <h4>Education</h4>
-      <ul>
-        <li>
-          {" "}
-          <strong>Boot Camp Certificate</strong>
-        </li>
-        <li>
-          {" "}
-          <strong>University of Washington</strong>
-        </li>
-        <p style={{ textAlign: "right" }}>Seattle, WA</p>
-      </ul>{" "}
-      Seattle, WA A 24-week intensive program focused on gaining technical
-      programming skills in HTML5, CSS3, Javascript, jQuery, Bootstrap,
-      Firebase, Node.js, MySQL, MongoDB, Express, Handelbars.js, and ReactJS.
-      <ul>
-        <li>
-          {" "}
-          <strong>Art Institute of Chicago</strong>
-        </li>
-
-        <p style={{ textAlign: "right" }}>Chicago, IL</p>
-      </ul>{" "}
-      Bachelor of Fine Arts (BFA)
+      
       <h4>Accolades</h4>
       <p>
         <stong>Best in class award </stong>- University of Washington Boot Camp
