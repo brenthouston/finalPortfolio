@@ -102,7 +102,7 @@ export default function Portfolio() {
               </h4>
               <p className="card-text">
                
-              Fine art portfolio featuring paintings by me, Brent Houston. Developed using Shopify, this site is intuitive for the user and demonstrates fully responsive design.     </p>
+              Fine art portfolio featuring oil paintings by me, Brent Houston. Developed using Shopify, this site is intuitive for the user and demonstrates fully responsive design.     </p>
               <div className="d-flex justify-content-end ">
                 <a
                   href="https://www.brenthouston.com/"
