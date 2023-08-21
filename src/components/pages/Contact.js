@@ -139,6 +139,10 @@ export default function ContactUs() {
       );
   };
 
+  const handleSubmit = (e) => {
+    alert("🎉 Thank you for reaching out. You will hear from me soon!")
+  }
+
   return (
     <div className="container contact">
       <div>
@@ -178,8 +182,12 @@ export default function ContactUs() {
 </div>
 
 <div class="form-group">
-        <input type="submit" value="Send" />
-        
+  <div class="col-md-12 text-right">
+        <input class="btn btn-primary btn-lg" type="submit" value="Send" style={  {backgroundColor: "var(--accent3) !important",
+  marginTop: "15px",
+  color: "var(--accent2) !important",
+  border: "none !important"}} onClick={handleSubmit}/>
+        </div>
         </div>
       </form>
     </div>
