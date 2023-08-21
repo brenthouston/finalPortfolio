@@ -140,6 +140,7 @@ export default function ContactUs() {
   };
 
   const handleSubmit = (e) => {
+    e.preventDefault();
     alert("🎉 Thank you for reaching out. You will hear from me soon!")
   }
 
