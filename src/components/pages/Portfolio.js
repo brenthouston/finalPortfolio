@@ -21,7 +21,7 @@ export default function Portfolio() {
 
 
       {/* Hinge Gallery */}
-      <div className="card mb-3 mt-4 " style={{background:"#131c21"}}>
+      {/* <div className="card mb-3 mt-4 " style={{background:"#131c21"}}>
         <div className="row g-0">
           <div className="col-md-4">
             <img
@@ -68,59 +68,8 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-
-
-      {/* Painting Website */}
-      <div className="card mb-3 mt-4 " style={{background:"#131c21"}}>
-        <div className="row g-0">
-          <div className="col-md-4">
-            <img
-              src={BH}
-              className="img-fluid rounded-start"
-              alt="app"
-            
-            ></img>
-          </div>
-          <div className="col-md-8">
-            <div
-              className="card-body"
-              style={{
-                background: "#131c21",
-                color: "var(--accent1)",
-                borderTopRightRadius: "6px",
-                borderBottomRightRadius: "6px",
-                borderLeft:"1px solid var(accent1)"
-              }}
-            >
-              <h4
-                className="card-title"
-                style={{ color: "var(--accent)", padding: "10px", fontWeight:"bolder", fontSize:"2.25rem"}}
-              >
-                Fine Arts Portfolio
-              </h4>
-              <p className="card-text">
-               
-              Fine art portfolio featuring oil paintings by me, Brent Houston. Developed using Shopify, this site is intuitive for the user and demonstrates fully responsive design.     </p>
-              <div className="d-flex justify-content-end ">
-                <a
-                  href="https://www.brenthouston.com/"
-                  class="btn"
-                  style={{
-                    background: "var(--accent3)",
-                    color: "var(--accent2)",
-                    margin:"15px"
-                  }}
-                >
-                  Visit Site
-                </a>
-              
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
 
         {/* FinHub */}
@@ -246,9 +195,59 @@ export default function Portfolio() {
         </div>
       </div>
 
+           {/* Painting Website */}
+           <div className="card mb-3 mt-4 " style={{background:"#131c21"}}>
+        <div className="row g-0">
+          <div className="col-md-4">
+            <img
+              src={BH}
+              className="img-fluid rounded-start"
+              alt="app"
+            
+            ></img>
+          </div>
+          <div className="col-md-8">
+            <div
+              className="card-body"
+              style={{
+                background: "#131c21",
+                color: "var(--accent1)",
+                borderTopRightRadius: "6px",
+                borderBottomRightRadius: "6px",
+                borderLeft:"1px solid var(accent1)"
+              }}
+            >
+              <h4
+                className="card-title"
+                style={{ color: "var(--accent)", padding: "10px", fontWeight:"bolder", fontSize:"2.25rem"}}
+              >
+                Fine Arts Portfolio
+              </h4>
+              <p className="card-text">
+               
+              Fine art portfolio featuring oil paintings by me, Brent Houston. Developed using Shopify, this site is intuitive for the user and demonstrates fully responsive design.     </p>
+              <div className="d-flex justify-content-end ">
+                <a
+                  href="https://www.brenthouston.com/"
+                  class="btn"
+                  style={{
+                    background: "var(--accent3)",
+                    color: "var(--accent2)",
+                    margin:"15px"
+                  }}
+                >
+                  Visit Site
+                </a>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
         {/* Quizatron */}
         
-      <div className="card mb-3 mt-4" style={{background:"#131c21"}}>
+      {/* <div className="card mb-3 mt-4" style={{background:"#131c21"}}>
         <div className="row g-0">
           <div className="col-md-4">
             <img
@@ -307,7 +306,9 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+
+
         {/*StockQuote */}
         
       <div className="card mb-3 mt-4" style={{background:"#131c21"}}>
@@ -370,6 +371,8 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
+
+
         {/* hashtag adulting */}
         
       <div className="card mb-3 mt-4" style={{background:"#131c21"}}>
@@ -435,9 +438,11 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
+
+
         {/* TechBlog */}
         
-      <div id="tech" className="card mb-3 mt-4" style={{background:"#131c21"}}>
+      {/* <div id="tech" className="card mb-3 mt-4" style={{background:"#131c21"}}>
         <div className="row g-0">
           <div className="col-md-4">
             <img
@@ -496,10 +501,12 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+
+      
         {/* Readme Gen*/}
         
-      <div className="card mb-3 mt-4" style={{background:"#131c21"}}>
+      {/* <div className="card mb-3 mt-4" style={{background:"#131c21"}}>
         <div className="row g-0">
           <div className="col-md-4">
             <img
@@ -557,7 +564,7 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
     </div>
   );
