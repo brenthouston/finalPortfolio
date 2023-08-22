@@ -2,12 +2,12 @@ import React from "react";
 import "../styles/style.css";
 import Cosmic from "../../images/CosmicDaily.png"
 import HashTag from "../../images/Hashtag.png"
-import Quiz from "../../images/Quizatron.png"
-import Read from "../../images/Readme.png"
+// import Quiz from "../../images/Quizatron.png"
+// import Read from "../../images/Readme.png"
 import Stock from "../../images/StockQuote.png"
-import Tech from "../../images/TechBLog.png"
+// import Tech from "../../images/TechBLog.png"
 import FinHub from "../../images/FinHub.jpg"
-import Hinge from "../../images/Hinge.png"
+// import Hinge from "../../images/Hinge.png"
 import BH from "../../images/BH.png"
 
 export default function Portfolio() {
