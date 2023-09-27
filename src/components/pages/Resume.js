@@ -18,15 +18,10 @@ export default function Resume() {
       </div>
       <div className=" row mx-auto text-center">
         <h2>Brent Houston</h2> <p style={{ margin: 0 }}>Seattle, WA</p>
-        <p>Phone:773-988-2768 | Email: brentjustinhouston@gmail.com </p>
+        <p>Phone:773-988-2768 | Email: brentjustinhouston@gmail.com | <a href="https://www.linkedin.com/in/brent-houston-53291a13/">LinkedIn</a> | <a href="https://github.com/brenthouston">GitHub</a></p>
       </div>
       <div>
-        <h4>Summary</h4> Experienced Full Stack Developer and Designer with a diverse background including entrepreneurship and a fine arts
-degree from The School of the Art Institute of Chicago. Possess a decade of experience as a successful business
-owner, with a proven track record of building a loyal client base, overseeing design projects from start to finish, and
-managing business functions. Utilize discipline, focus, and teamwork skills developed as a collegiate baseball
-pitcher to excel in entrepreneurship. Successful stock market trader, highlighting expertise in strategy, analysis, and
-risk management.
+        <h4>Summary</h4> <strong>Part Artist, Part Engineer:</strong> <p>Fine arts grad turned entrepreneur, University of Washington Software graduate and recipient of the UX/UI Best in Class award. My entrepreneurial journey has reinforced my belief in a growth mindset and honed my soft skills. These skills have not only contributed to my success as a small business owner but also made me well-equipped to exceed expectations in web development and design.</p>
       </div>
       <h4>Technical Skills</h4>
       <p style={{ color: "var(--accent3)", margin: 0 }}>
@@ -76,69 +71,35 @@ risk management.
         </li>
       </ul>
       <p>
-        As an entrepreneur with a fine arts background, I’ve implemented
-        innovative marketing strategies, grown client bases, and optimized
-        profit margins through efficient business strategies and strong
-        communication and customer service skills. I’m experienced in managing
-        teams, establishing project processes, and leveraging vertical
-        integration strategies to improve product performance and streamline
-        production processes. These skills are transferable to software
-        engineering roles, where I’d develop software solutions, manage
-        projects, and collaborate with cross-functional teams. My expertise in
-        multi-channel marketing and digital mediums would be valuable in
-        promoting software applications to target audiences. My diverse skill
-        set and experience make me a strong candidate for software engineering
-        roles.{" "}
+      <em>This experience has equipped me with a keen understanding of client empathy, user experience design, and marketing – all of which I'm eager to leverage in the field of web development:</em>{" "}
       </p>
       <p>
         <strong>Key Accomplishments:</strong>
       </p>
       <ul>
         <li style={{ listStyle: "disc" }}>
-          Implement innovative marketing strategies that result in a pre-COVID
-          annual gross revenue increase of +36% YoY by building the company's
-          branding from scratch.
+        <strong>Primary Web Developer:</strong> Iteratively enhanced online presence and customer experience based on analytics data. 
         </li>
         <li style={{ listStyle: "disc" }}>
-          Develop and implemented successful multi-channel marketing strategy
-          resulting in a 15.5% YoY increase in client base, utilizing print,
-          digital, and video mediums.
+      	<strong>Established and Fostered Brand Image:</strong> Executed a thriving multichannel marketing strategy, achieving a steady 15.5% YoY client growth across print, digital, and video platforms.
         </li>
         <li style={{ listStyle: "disc" }}>
-          Grow transaction size by 13.8% YoY in last year of operation by
-          developing customer-centric pricing model.
+        <strong>Found and Applied Business Efficacy Tactics:</strong>	 Including supplier negotiations and vertical integration, resulting in 13.21% margin increase over two years.
         </li>
         <li style={{ listStyle: "disc" }}>
-          Identify business efficiency strategies (supplier negotiation
-          opportunities and vertical integration) resulting in 13.21% margin
-          increase over 2 years.
+        <strong>Managed Teams:</strong> Established project processes, and ensured successful project delivery, demonstrating proficiency in client interaction, design, and execution.
         </li>
         <li style={{ listStyle: "disc" }}>
           {" "}
-          Manage team, establish processes for project design, execution, and
-          presentation, resulting in successful client interactions and project
-          delivery.
+          <strong>Developed Pricing Model: </strong>	For the custom framing department that was client-focused, increasing transaction sizes by 13.8% YoY in the final year of operation.
         </li>
         <li style={{ listStyle: "disc" }}>
-          Create pricing model for custom framing department with good, better,
-          best options.
+        <strong>Project Design and Development:</strong> Applied vertical integration strategies to enhance product performance and production efficiency.
         </li>
         <li style={{ listStyle: "disc" }}>
-          Developed ordering management system to manage suppliers and track
-          customer ordering. Source and negotiate with 30+ retail inventory and
-          material suppliers to optimize procurement and increase profit
-          margins.
+        <strong>Customer Obsessed:</strong>	 Proven to build and retain loyal client base.
         </li>
-        <li style={{ listStyle: "disc" }}>
-          Demonstrate expertise in product design, development, and creation,
-          leveraging vertical integration strategies to improve product
-          performance and streamline production processes.
-        </li>
-        <li style={{ listStyle: "disc" }}>
-          Foster strong partnerships and referrals with customers and
-          stakeholders through exceptional communication and customer service
-          skills.
-        </li>
+     
       </ul>
       <h4>Additional Experience</h4>
       <ul>
@@ -154,12 +115,10 @@ risk management.
       </ul>
       <ul>
         <li style={{ listStyle: "disc" }}>
-          Operations management including overseeing of 5 employees, ordering,
-          product buying and participating in weekly officer meetings.
+        <strong>Operations Management:</strong>	 Including overseeing of 5 employees, ordering, product buying and participating in weekly officer meetings.
         </li>
         <li style={{ listStyle: "disc" }}>
-          Custom framing design, customer service, and sales, successfully
-          producing ove $230k annually.
+        <strong>Custom framing designer:</strong> Customer service, and sales, successfully producing over $230k annually.
         </li>
       </ul>
       <ul>
@@ -175,12 +134,10 @@ risk management.
       </ul>
       <ul>
         <li style={{ listStyle: "disc" }}>
-          Responsible for custom framing and fine art sales consistently
-          exceeded goal of 60k projected monthly forecast.
+        <strong>Consistently Surpassed the Monthly Sales Goal of $60k:</strong>	 In custom framing and fine art sales.
         </li>
         <li style={{ listStyle: "disc" }}>
-          Oversee staff of 4 and provide franchise owners with weekly status
-          reports.
+        <strong>Oversee Staff:</strong>	 Four directs and report weekly to franchise owners.
         </li>
       </ul>
       
@@ -196,8 +153,7 @@ risk management.
         conventions while also deploying a thorough repository containing all
         necessary information!”{" "}
       </em>
-      – UW Professor, Joe Rehfuss <h4>Interests</h4> Chess (Rating 1617), Day
-      Trading & Swing Trading, Oil painting (brenthouston.com), Coed softball
+      – UW Professor, Joe Rehfuss <h4>Interests</h4> Chess, Oil painting (<a href="https://www.brenthouston.com/">brenthouston.com</a>), Coed softball
       league
       </div>
     </div>
