@@ -52,11 +52,7 @@ export default function About() {
 
       <div className="mt-3 d-grid gap-3 text">
         <p className="intro mx-5">
-          Hi, I'm Brent, an entrepreneur and fine arts graduate from The School
-          of the Art Institute of Chicago. For over a decade, I owned and
-          operated a successful picture framing business, building a loyal
-          client base from scratch, managing the supply chain, and overseeing
-          projects from end to end.
+        <strong>Part artist, part engineer:</strong> Fine arts grad turned entrepreneur, University of Washington Software graduate and recipient of the <strong>UX/UI Best in Class award.</strong> My entrepreneurial journey has reinforced my belief in a growth mindset and honed my soft skills. These skills have not only contributed to my success as a small business owner but also made me well-equipped to exceed expectations in web development and design.
         </p>
         <p className="intro mx-5">
           Drawing from my experiences as a collegiate baseball pitcher, I
