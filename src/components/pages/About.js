@@ -51,23 +51,13 @@ export default function About() {
       </div>
 
       <div className="mt-3 d-grid gap-3 text">
-        <p className="intro mx-5">
-        <strong>Part artist, part engineer:</strong> Fine arts grad turned entrepreneur, University of Washington Software graduate and recipient of the <strong>UX/UI Best in Class award.</strong> My entrepreneurial journey has reinforced my belief in a growth mindset and honed my soft skills. These skills have not only contributed to my success as a small business owner but also made me well-equipped to exceed expectations in web development and design.
+      <h2 style={{color: "var(--accent3)", fontSize: "4rem"}}>Part Artist, Part Engineer:</h2> 
+        <p className="intro mx-5" style={{fontSize: "24px"}}>
+        Fine arts grad turned entrepreneur, University of Washington Software graduate and recipient of the <strong>UX/UI Best in Class award.</strong> My entrepreneurial journey has reinforced my belief in a growth mindset and honed my soft skills. These skills have not only contributed to my success as a small business owner but also made me well-equipped to exceed expectations in web development and design.
         </p>
-        <p className="intro mx-5">
-          Drawing from my experiences as a collegiate baseball pitcher, I
-          developed discipline, focus, and teamwork skills that have served me
-          well in my entrepreneurial endeavors. I have also taught myself to
-          successfully trade in the stock market, a passion that has taught me
-          the value of careful analysis and risk management.
-        </p>
+       
 
-        <p className="intro mx-5">
-          Recently, I've decided to pivot my career and pursue my passion for
-          software engineering. With my experience in project management and
-          creativity, I look forward to applying my skills to this new field and
-          continuing to learn and grow.
-        </p>
+      
       </div>
     </div>
   );
