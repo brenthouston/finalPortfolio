@@ -51,7 +51,7 @@ export default function About() {
       </div>
 
       <div className="mt-3 d-grid gap-3 text">
-      <h2 style={{color: "var(--accent3)", fontSize: "4rem"}}>Part Artist, Part Engineer:</h2> 
+      <strong style={{color: "var(--accent3)", fontSize: "4rem", fontFamily: "Helvetica, sans-serif", textAlign: "center", margin: "0"}}>Part Artist, Part Engineer:</strong> 
         <p className="intro mx-5" style={{fontSize: "24px"}}>
         Fine arts grad turned entrepreneur, University of Washington Software graduate and recipient of the <strong>UX/UI Best in Class award.</strong> My entrepreneurial journey has reinforced my belief in a growth mindset and honed my soft skills. These skills have not only contributed to my success as a small business owner but also made me well-equipped to exceed expectations in web development and design.
         </p>
