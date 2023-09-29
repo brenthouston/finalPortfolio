@@ -21,7 +21,7 @@ export default function Resume() {
         <p>Phone:773-988-2768 | Email: brentjustinhouston@gmail.com | <a href="https://www.linkedin.com/in/brent-houston-53291a13/">LinkedIn</a> | <a href="https://github.com/brenthouston">GitHub</a></p>
       </div>
       <div>
-        <h4>Summary</h4> <strong>Part Artist, Part Engineer:</strong> <p>Fine arts grad turned entrepreneur, University of Washington Software graduate and recipient of the UX/UI Best in Class award. My entrepreneurial journey has reinforced my belief in a growth mindset and honed my soft skills. These skills have not only contributed to my success as a small business owner but also made me well-equipped to exceed expectations in web development and design.</p>
+        <h4>Summary</h4> <strong>Engineer & Artist:</strong> <p>Master artist and small business owner, a University of Washington Software graduate, and UX/UI Best in Class awardee. Entrepreneurship strengthened my growth mindset, sharpened problem-solving, and deepened mastery. These skills bolstered my business success and readiness to excel in web development and design.</p>
       </div>
       <h4>Technical Skills</h4>
       <p style={{ color: "var(--accent3)", margin: 0 }}>
