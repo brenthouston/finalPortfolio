@@ -52,7 +52,7 @@ export default function About() {
 
       <div className="mt-3 d-grid gap-3 text">
       
-        <p className="intro mx-5" style={{fontSize: "24px"}}><strong style={{color: "var(--accent3)", fontSize: "4rem", fontFamily: "Helvetica, sans-serif", textAlign: "center", margin: "0"}}>Part Artist, Part Engineer:</strong> <br></br>
+        <p className="intro mx-5" style={{fontSize: "24px"}}><strong style={{color: "var(--accent3)", fontSize: "4rem", fontFamily: "Helvetica, sans-serif", textAlign: "center", margin: "0"}}>Engineer & Artist:</strong> <br></br>
         Master artist and small business owner, a University of Washington Software graduate, and <strong>UX/UI Best in Class awardee.</strong> Entrepreneurship strengthened my growth mindset, sharpened problem-solving, and deepened mastery. These skills bolstered my business success and readiness to excel in web development and design.
         </p>
        
