@@ -18,7 +18,7 @@ export default function About() {
           <div className="row mt-2 d-flex align-items-center justify-content-center">
             <h3 id="me">BRENT HOUSTON</h3>
             <h4 className="mt-n-1" id="role">
-              Full Stack Developer
+              Full-Stack Developer
             </h4>
           </div>
         </div>
