@@ -103,7 +103,15 @@ export default function Portfolio() {
               </h4>
               <p className="card-text">
                
-              FinHub is a social media platform built by the investing community for the investing community. We strive to create a space where individuals can share their thoughts and ideas with other in the community. Users can create profiles for themselves when they sign up and add stocks to their watch list for other to come view their profile and watchlist. Users are able to look up tickers and get intra-day stock information to better analyze if those tickers are deserving of join their watch list. As FinHub is focused on building connections and sharing ideas, users can go into ChatHub where users can join topic specific chat rooms to live chat with other users!              </p>
+              FinHub is a social media platform built for the investing community. Users can create profiles for themselves when they sign up and add stocks to their watch list for other to come view their profile and watchlist. Users are able to look up tickers, get intra-day stock information, and add to watch list. Use ChatHub topic specific chat rooms to connect with other users. </p>
+              <ul style={{listStyleType:"square"}}>
+        <li>Tech: Figma, VS Code, React, Node.js, SQL, Bootstrap</li>
+        <li><strong>Goal:</strong> Monitor financial markets and connect investors</li>
+        <li>GitHub version control while working on a team</li>
+        <li><strong>Challengge:</strong> Adding Real-Time Ticker Chart</li>
+        <li style={{textIndent:"15px", listStyleType: "circle"}}><strong>Solution:</strong> Successfully Integrated ApexCharts, read documentation</li>
+        <li>Deployed using Netlify  |  May 2023</li>
+      </ul>
               <div className="d-flex justify-content-end ">
                 <a
                   href="https://finnhub.netlify.app/home"
@@ -164,8 +172,16 @@ export default function Portfolio() {
               </h4>
               <p className="card-text">
                
-              Our website is your go-to source for stunning space imagery and up-to-date information on the asteroids NASA is tracking. With our NASA Picture of the Day section, you can explore the universe one day at a time and travel back in time to view past images. Each picture is accompanied by an info panel that provides fascinating details about the image and the objects it captures. In addition, our website offers a wealth of information on the asteroids NASA is currently monitoring, including detailed descriptions and photos of each asteroid. Whether you're an astronomy enthusiast or simply appreciate the beauty of the cosmos, our website is the perfect place to indulge your curiosity and explore the wonders of space.
-              </p>
+              Our website is your go-to source for stunning space imagery and up-to-date information on the asteroids NASA is tracking. Explore the universe one day at a time, and travel back in time to view past images. Go Deeper with an info panel that provides details about the image and the objects it captures. </p>
+              <ul style={{listStyleType:"square"}}>
+        <li>Tech: VS Code, Excalidraw, HTML5, CSS, JS, DayJS, Photoshop, Materialize</li>
+        <li><strong>Goal:</strong> Explore NASA's daily space images</li>
+        <li>GitHub version control while working on a team</li>
+        <li>Fetched NASA's Picture of the Day and data</li>
+        <li><strong>Challengge:</strong> User-friendly date selection</li>
+        <li style={{textIndent:"15px", listStyleType: "circle"}}><strong>Solution:</strong> Used Materialize date picker, read documentation</li>
+        <li>Deployed using GitHub Pages  |  Apr 2023</li>
+      </ul>
               <div className="d-flex justify-content-end ">
                 <a
                   href="https://brenthouston.github.io/Cosmic-Daily/"
