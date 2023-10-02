@@ -18,16 +18,16 @@ export default function Resume() {
       </div>
       <div className=" row mx-auto text-center">
         <h2>Brent Houston</h2> <p style={{ margin: 0 }}>Fayetteville, AR</p>
-        <p>Phone:773-988-2768 | Email: brentjustinhouston@gmail.com | <a href="https://www.linkedin.com/in/brent-houston-53291a13/" style={{color: "var(--accent4)", }}>LinkedIn</a> | <a href="https://github.com/brenthouston" style={{color: "var(--accent4)"}}>GitHub</a></p>
+        <p>Phone: 773-988-2768 | Email: brentjustinhouston@gmail.com | <a href="https://www.linkedin.com/in/brent-houston-53291a13/" style={{color: "var(--accent4)", }}>LinkedIn</a> | <a href="https://github.com/brenthouston" style={{color: "var(--accent4)"}}>GitHub</a></p>
       </div>
       <div>
-        <h4>Summary</h4> <strong>Engineer & Artist:</strong> <p>Small business owner and master artist. A University of Washington Software graduate, and UX/UI Best in Class awardee. Entrepreneurship strengthened my growth mindset, sharpened problem-solving, and deepened mastery. These skills bolstered my business success and readiness to excel in web development and design.</p>
+        <h4>Summary</h4> <strong>Engineer & Artist:</strong> <p>Small business owner and master artist. A University of Washington Software graduate, and <strong>UX/UI Best in Class award recipient</strong>. Entrepreneurship strengthened my growth mindset, sharpened problem-solving, and deepened mastery. These skills bolstered my business success and readiness to excel in web development and design.</p>
       </div>
       <h4>Technical Skills</h4>
-      <p style={{ color: "var(--accent3)", margin: 0 }}>
+      <p style={{ color: "var(--accent1)", margin: 0 }}>
         <strong>Languages:</strong> JavaScript, HTML, CSS, SQL
       </p>{" "}
-      <p style={{ color: "var(--accent3)", margin: 0 }}>
+      <p style={{ color: "var(--accent1)", margin: 0 }}>
         <strong>Tools:</strong> Node.js, jQuery, React, Node, MS Office, Adobe
         Creative Suite, VS Code
       </p>
@@ -35,55 +35,60 @@ export default function Resume() {
       <ul>
         <li>
           {" "}
-          <strong>Boot Camp Certificate</strong>
+          <strong><em>University of Washington</em></strong>
         </li>
         <li>
           {" "}
-          <strong>University of Washington</strong><span style={{ float: "right" }}>Seattle, WA</span>
+          <strong><em>2023 Graduate - Software Engineering Certificate</em></strong><span style={{ float: "right" }}><em>Seattle, WA</em></span>
         </li>
       
       </ul>{" "}
-      <div>   Seattle, WA A 24-week intensive program focused on gaining technical
+      <li>  A 24-week intensive program focused on gaining technical
       programming skills in HTML5, CSS3, Javascript, jQuery, Bootstrap,
-      Firebase, Node.js, MySQL, MongoDB, Express, Handelbars.js, and ReactJS.</div>
+      Firebase, Node.js, MySQL, MongoDB, Express, Handelbars.js, and ReactJS.</li>
    
       <br />
       <ul>
         <li>
           {" "}
-          <strong>Art Institute of Chicago</strong> <span style={{ float: "right" }}>Chicago, IL</span>
+          <strong><em>Art Institute of Chicago</em></strong> <span style={{ float: "right" }}><em>Chicago, IL</em></span>
        
         </li>
 
+     <li>
+      <strong><em>2002 Bachelor of Fine Arts</em></strong>
+      </li> 
       </ul>{" "}
-      Bachelor of Fine Arts (BFA)
+        <li>
+        Honed verbal presentation, displayed strong ability to communicate design decisions, and leard to gracefully accept and apply constructive criticism.
+        </li>
 
       <h4>Projects</h4>{" "}
 
-     <a href="https://brenthouston.github.io/Cosmic-Daily/" style={{color: "var(--accent4)"}}><strong >Cosmic Daily:</strong><em>  Explore the Universe, one day at a time.</em></a>
+     <a href="https://brenthouston.github.io/Cosmic-Daily/" style={{color: "var(--accent4)"}} target="_blank" rel="search"><strong >Cosmic Daily:</strong><em>  Explore the Universe, one day at a time.</em></a>
       <ul style={{listStyleType:"square"}}>
         <li>Tech: VS Code, Excalidraw, HTML5, CSS, JS, DayJS, Photoshop, Materialize</li>
-        <li><strong>Goal:</strong> Explore NASA's daily space images</li>
+        <li><strong>Goal:</strong> <em>Explore NASA's daily space images</em></li>
         <li>GitHub version control while working on a team</li>
         <li>Fetched NASA's Picture of the Day and data</li>
-        <li><strong>Challengge:</strong> User-friendly date selection</li>
+        <li><strong>Challenge:</strong> User-friendly date selection</li>
         <li style={{textIndent:"15px", listStyleType: "circle"}}><strong>Solution:</strong> Used Materialize date picker, read documentation</li>
         <li>Deployed using GitHub Pages  |  Apr 2023</li>
       </ul>
-     <a href="https://finnhub.netlify.app/login" style={{color: "var(--accent4)"}}><strong >FinHub:</strong><em>  Financial Markets Monitoring and Social App.</em></a>
+     <a href="https://finnhub.netlify.app/login" style={{color: "var(--accent4)"}} target="_blank" rel="search"><strong >FinHub:</strong><em>  Financial Markets Monitoring and Social Media App.</em></a>
       <ul style={{listStyleType:"square"}}>
         <li>Tech: Figma, VS Code, React, Node.js, SQL, Bootstrap</li>
-        <li><strong>Goal:</strong> Monitor financial markets and connect investors</li>
+        <li><strong>Goal:</strong> <em>Monitor financial markets and connect investors</em></li>
         <li>GitHub version control while working on a team</li>
-        <li><strong>Challengge:</strong> Adding Real-Time Ticker Chart</li>
+        <li><strong>Challenge:</strong> Adding Real-Time Ticker Chart</li>
         <li style={{textIndent:"15px", listStyleType: "circle"}}><strong>Solution:</strong> Successfully Integrated ApexCharts, read documentation</li>
         <li>Deployed using Netlify  |  May 2023</li>
       </ul>
-     <a href="https://brenthouston.netlify.app/" style={{color: "var(--accent4)"}}><strong >Web Dev Portfolio</strong></a>
+     <a href="https://brenthouston.netlify.app/" style={{color: "var(--accent4)"}} target="_blank" rel="search"><strong >Web Dev Portfolio</strong></a>
       <ul style={{listStyleType:"square"}}>
         <li>Tech: VS Code, React, Node.js, @EmailJS, Bootstrap, Photoshop</li>
-        <li><strong>Goal:</strong> Showcase web deveopment work</li>
-        <li><strong>Challengge:</strong> Routing user comments to my personal email</li>
+        <li><strong>Goal:</strong> <em>Showcase web deveopment work</em></li>
+        <li><strong>Challenge:</strong> Routing user comments to my personal email</li>
         <li style={{textIndent:"15px", listStyleType: "circle"}}><strong>Solution:</strong> Researching and implementing @EmailJS to achieve this</li>
         <li>Deployed using Netlify  |  May 2023</li>
       </ul>
@@ -182,7 +187,7 @@ export default function Resume() {
         conventions while also deploying a thorough repository containing all
         necessary information!”{" "}
       </em>
-      – UW Professor, Joe Rehfuss <h4>Interests</h4> Chess, Oil painting (<a href="https://www.brenthouston.com/">brenthouston.com</a>), Coed softball
+      – UW Professor, Joe Rehfuss <h4>Interests</h4> Chess, Oil painting (<a href="https://www.brenthouston.com/" style={{color: "var(--accent4)"}} rel="search" target="_blank">brenthouston.com</a>), Coed softball
       league
       </div>
     </div>

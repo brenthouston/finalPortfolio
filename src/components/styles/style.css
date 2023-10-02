@@ -26,12 +26,16 @@ font-style: normal; */
   --accent1: #adadad;
   --accent2: #070712;
   --accent3: #5dbff4;
-  --accent4: #a5e6fa;
+  --accent4: #87c9de;
 }
 
 .text {
   padding: 10px;
   justify-content: center;
+}
+
+strong{
+  color:#d9d6d6;
 }
 
 .footer {
