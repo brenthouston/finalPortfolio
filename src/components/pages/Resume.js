@@ -18,7 +18,7 @@ export default function Resume() {
       </div>
       <div className=" row mx-auto text-center">
         <h2>Brent Houston</h2> <p style={{ margin: 0 }}>Fayetteville, AR</p>
-        <p>Phone:773-988-2768 | Email: brentjustinhouston@gmail.com | <a href="https://www.linkedin.com/in/brent-houston-53291a13/">LinkedIn</a> | <a href="https://github.com/brenthouston">GitHub</a></p>
+        <p>Phone:773-988-2768 | Email: brentjustinhouston@gmail.com | <a href="https://www.linkedin.com/in/brent-houston-53291a13/" style={{color: "var(--accent4)", }}>LinkedIn</a> | <a href="https://github.com/brenthouston" style={{color: "var(--accent4)"}}>GitHub</a></p>
       </div>
       <div>
         <h4>Summary</h4> <strong>Engineer & Artist:</strong> <p>Small business owner and master artist. A University of Washington Software graduate, and UX/UI Best in Class awardee. Entrepreneurship strengthened my growth mindset, sharpened problem-solving, and deepened mastery. These skills bolstered my business success and readiness to excel in web development and design.</p>
@@ -60,7 +60,7 @@ export default function Resume() {
 
       <h4>Projects</h4>{" "}
 
-     <a href="https://brenthouston.github.io/Cosmic-Daily/" style={{color: "var(--accent3)"}}><strong >Cosmic Daily:</strong><em>  Explore the Universe, one day at a time.</em></a>
+     <a href="https://brenthouston.github.io/Cosmic-Daily/" style={{color: "var(--accent4)"}}><strong >Cosmic Daily:</strong><em>  Explore the Universe, one day at a time.</em></a>
       <ul style={{listStyleType:"square"}}>
         <li>Tech: VS Code, Excalidraw, HTML5, CSS, JS, DayJS, Photoshop, Materialize</li>
         <li><strong>Goal:</strong> Explore NASA's daily space images</li>
@@ -70,7 +70,7 @@ export default function Resume() {
         <li style={{textIndent:"15px", listStyleType: "circle"}}><strong>Solution:</strong> Used Materialize date picker, read documentation</li>
         <li>Deployed using GitHub Pages  |  Apr 2023</li>
       </ul>
-     <a href="https://finnhub.netlify.app/login" style={{color: "var(--accent3)"}}><strong >FinHub:</strong><em>  Financial Markets Monitoring and Social App.</em></a>
+     <a href="https://finnhub.netlify.app/login" style={{color: "var(--accent4)"}}><strong >FinHub:</strong><em>  Financial Markets Monitoring and Social App.</em></a>
       <ul style={{listStyleType:"square"}}>
         <li>Tech: Figma, VS Code, React, Node.js, SQL, Bootstrap</li>
         <li><strong>Goal:</strong> Monitor financial markets and connect investors</li>
@@ -79,7 +79,7 @@ export default function Resume() {
         <li style={{textIndent:"15px", listStyleType: "circle"}}><strong>Solution:</strong> Successfully Integrated ApexCharts, read documentation</li>
         <li>Deployed using Netlify  |  May 2023</li>
       </ul>
-     <a href="https://brenthouston.netlify.app/" style={{color: "var(--accent3)"}}><strong >Web Dev Portfolio</strong></a>
+     <a href="https://brenthouston.netlify.app/" style={{color: "var(--accent4)"}}><strong >Web Dev Portfolio</strong></a>
       <ul style={{listStyleType:"square"}}>
         <li>Tech: VS Code, React, Node.js, @EmailJS, Bootstrap, Photoshop</li>
         <li><strong>Goal:</strong> Showcase web deveopment work</li>
