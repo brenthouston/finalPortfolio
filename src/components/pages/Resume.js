@@ -17,7 +17,7 @@ export default function Resume() {
         </div>
       </div>
       <div className=" row mx-auto text-center">
-        <h2>Brent Houston</h2> <p style={{ margin: 0 }}>Seattle, WA</p>
+        <h2>Brent Houston</h2> <p style={{ margin: 0 }}>Fayetteville, AR</p>
         <p>Phone:773-988-2768 | Email: brentjustinhouston@gmail.com | <a href="https://www.linkedin.com/in/brent-houston-53291a13/">LinkedIn</a> | <a href="https://github.com/brenthouston">GitHub</a></p>
       </div>
       <div>
