@@ -77,7 +77,7 @@ export default function Resume() {
       </ul>
      <a href="https://finnhub.netlify.app/login" style={{color: "var(--accent4)"}} target="_blank" rel="search"><strong >FinHub:</strong><em>  Financial Markets Monitoring and Social Media App.</em></a>
       <ul style={{listStyleType:"square"}}>
-        <li>Tech: Figma, VS Code, React, Node.js, SQL, Bootstrap</li>
+        <li>Tech: Figma, React, Node.js, Express.js, MongoDB, Socket.io, Cloudinary, JS, Bootstrap, ApexCharts</li>
         <li><strong>Goal:</strong> <em>Monitor financial markets and connect investors</em></li>
         <li>GitHub version control while working on a team</li>
         <li><strong>Challenge:</strong> Adding Real-Time Ticker Chart</li>
