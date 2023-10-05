@@ -105,10 +105,10 @@ export default function Portfolio() {
                
               FinHub is a social media platform built for the investing community. Users can create profiles for themselves when they sign up and add stocks to their watch list for other to come view their profile and watchlist. Users are able to look up tickers, get intra-day stock information, and add to watch list. Use ChatHub topic specific chat rooms to connect with other users. </p>
               <ul style={{listStyleType:"square"}}>
-        <li>Tech: Figma, VS Code, React, Node.js, SQL, Bootstrap</li>
+        <li>Tech: Figma, React, Node.js, Express.js, MongoDB, Socket.io, Cloudinary, JS, Bootstrap, ApexCharts</li>
         <li><strong>Goal:</strong> Monitor financial markets and connect investors</li>
         <li>GitHub version control while working on a team</li>
-        <li><strong>Challengge:</strong> Adding Real-Time Ticker Chart</li>
+        <li><strong>Challenge:</strong> Adding Real-Time Ticker Chart</li>
         <li style={{textIndent:"15px", listStyleType: "circle"}}><strong>Solution:</strong> Successfully Integrated ApexCharts, read documentation</li>
         <li>Deployed using Netlify  |  May 2023</li>
       </ul>
@@ -140,6 +140,80 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
+
+             {/* hashtag adulting */}
+        
+             <div className="card mb-3 mt-4" style={{background:"#131c21"}}>
+        <div className="row g-0">
+          <div className="col-md-4">
+            <img
+              src={HashTag}
+              className="img-fluid rounded-start"
+              alt="app"
+          
+            ></img>
+          </div>
+          <div className="col-md-8">
+            <div
+              className="card-body"
+              style={{
+                background: "#131c21",
+                color: "var(--accent1)",
+                
+                borderTopRightRadius: "6px",
+                borderBottomRightRadius: "6px",
+                borderLeft:"1px solid var(accent1)"
+              }}
+            >
+              
+              <h4
+                className="card-title"
+                style={{ color: "var(--accent)", padding: "10px", fontWeight:"bolder", fontSize:"2.25rem"}}
+              >
+                Hashtag Adulting
+              </h4>
+               <p>Ultimate Home Maintance App:</p>
+              <p className="card-text ">
+                During the development of #Adulting, we leveraged cutting-edge
+                technologies to enhance user experience and functionality.
+              </p>
+              <ul style={{listStyleType:"square"}}>
+        <li>Tech: SendGrid, Node Scheduler, Handlebars, Canva, Sequelize, DayJS, MySQL, Adobe Suite</li>
+        <li><strong>Goal:</strong> Create a home app tracking long-term maintenance tasks.</li>
+        <li>GitHub version control while working on a team</li>
+        <li><strong>Challenge:</strong>  #Adulting offers endless customization with abundant information that we wanted to serve up in a user-friendly way.</li>
+        <li style={{textIndent:"15px", listStyleType: "circle"}}><strong>Solution:</strong>  Iteration based on user feedback, we achieved our goal through an organized layout and consistency of design.</li>
+        <li>Deployed using Heroku  |  May 2023</li>
+      </ul>
+              <div className="d-flex justify-content-end ">
+                <a
+                  href="https://hashtag-adulting.herokuapp.com/"
+                  class="btn"
+                  style={{
+                    background: "var(--accent3)",
+                    color: "var(--accent2)",
+                    margin:"15px"
+                  }}
+                >
+                  Visit Site
+                </a>
+                <a
+                  href="https://github.com/brenthouston/hashtag-adulting"
+                  class="btn"
+                  style={{
+                    background: "var(--accent3)",
+                    color: "var(--accent2)",
+                    margin:"15px"
+                  }}
+                >
+                  Visit Repo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
         {/* Cosmic Daily */}
     
@@ -178,7 +252,7 @@ export default function Portfolio() {
         <li><strong>Goal:</strong> Explore NASA's daily space images</li>
         <li>GitHub version control while working on a team</li>
         <li>Fetched NASA's Picture of the Day and data</li>
-        <li><strong>Challengge:</strong> User-friendly date selection</li>
+        <li><strong>Challenge:</strong> User-friendly date selection</li>
         <li style={{textIndent:"15px", listStyleType: "circle"}}><strong>Solution:</strong> Used Materialize date picker, read documentation</li>
         <li>Deployed using GitHub Pages  |  Apr 2023</li>
       </ul>
@@ -241,7 +315,7 @@ export default function Portfolio() {
               </h4>
               <p className="card-text">
                
-              Fine art portfolio featuring oil paintings by me, Brent Houston. Developed using Shopify, this site is intuitive for the user and demonstrates fully responsive design.     </p>
+              Fine art portfolio featuring oil paintings by yours truly. Developed using Shopify, this site has a clean look and an intuitive flow.     </p>
               <div className="d-flex justify-content-end ">
                 <a
                   href="https://www.brenthouston.com/"
@@ -389,72 +463,7 @@ export default function Portfolio() {
       </div>
 
 
-        {/* hashtag adulting */}
-        
-      <div className="card mb-3 mt-4" style={{background:"#131c21"}}>
-        <div className="row g-0">
-          <div className="col-md-4">
-            <img
-              src={HashTag}
-              className="img-fluid rounded-start"
-              alt="app"
-          
-            ></img>
-          </div>
-          <div className="col-md-8">
-            <div
-              className="card-body"
-              style={{
-                background: "#131c21",
-                color: "var(--accent1)",
-                
-                borderTopRightRadius: "6px",
-                borderBottomRightRadius: "6px",
-                borderLeft:"1px solid var(accent1)"
-              }}
-            >
-              <h4
-                className="card-title"
-                style={{ color: "var(--accent)", padding: "10px", fontWeight:"bolder", fontSize:"2.25rem"}}
-              >
-                Hashtag Adulting
-              </h4>
-              <p className="card-text ">
-               
-                During the development of #Adulting, we leveraged cutting-edge
-                technologies to enhance user experience and functionality. We
-                utilized handlebars to efficiently template out web pages,
-                providing a seamless and intuitive interface for our users.
-              </p>
-              <div className="d-flex justify-content-end ">
-                <a
-                  href="https://hashtag-adulting.herokuapp.com/"
-                  class="btn"
-                  style={{
-                    background: "var(--accent3)",
-                    color: "var(--accent2)",
-                    margin:"15px"
-                  }}
-                >
-                  Visit Site
-                </a>
-                <a
-                  href="https://github.com/brenthouston/hashtag-adulting"
-                  class="btn"
-                  style={{
-                    background: "var(--accent3)",
-                    color: "var(--accent2)",
-                    margin:"15px"
-                  }}
-                >
-                  Visit Repo
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+ 
 
         {/* TechBlog */}
         
