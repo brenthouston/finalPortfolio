@@ -18,7 +18,7 @@ export default function About() {
           <div className="row mt-2 d-flex align-items-center justify-content-center">
             <h3 id="me">BRENT HOUSTON</h3>
             <h4 className="mt-n-1" id="role">
-              Full-Stack Developer
+              Front-End Developer
             </h4>
           </div>
         </div>
@@ -53,7 +53,7 @@ export default function About() {
       <div className="mt-3 d-grid gap-3 text">
       
         <p className="intro mx-5" style={{fontSize: "21px"}}><strong style={{color: "var(--accent3)", fontSize: "2rem", fontFamily: "Helvetica, sans-serif", textAlign: "center", margin: "0"}}>Engineer & Artist:</strong> <br></br>
-        Master artist and small business owner, a University of Washington Software graduate, and <strong>UX/UI Best in Class awardee.</strong> Entrepreneurship strengthened my growth mindset, sharpened problem-solving, and deepened mastery. These skills bolstered my business success and readiness to excel in web development and design.
+        Small business owner and master artist, a University of Washington Software graduate, and <strong>UX/UI Best in Class awardee.</strong> Entrepreneurship strengthened my growth mindset, sharpened problem-solving, and deepened mastery. These skills bolstered my business success and readiness to excel in web development and design.
         </p>
        
 
