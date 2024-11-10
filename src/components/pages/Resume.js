@@ -66,7 +66,7 @@ export default function Resume() {
 
       <h4>Projects</h4>{" "}
 
-     <a href="https://brenthouston.github.io/Cosmic-Daily/" style={{color: "var(--accent4)"}} target="_blank" rel="search"><strong >Cosmic Daily:</strong><em>  Explore the Universe, one day at a time.</em></a>
+     <a href="https://brenthouston.github.io/Cosmic-Daily/" style={{color: "var(--accent4)"}} target="_blank" rel="noreferrer"><strong >Cosmic Daily:</strong><em>  Explore the Universe, one day at a time.</em></a>
       <ul style={{listStyleType:"square"}}>
         <li>Tech: VS Code, Excalidraw, HTML5, CSS, JS, DayJS, Photoshop, Materialize</li>
         <li><strong>Goal:</strong> <em>Explore NASA's daily space images</em></li>
