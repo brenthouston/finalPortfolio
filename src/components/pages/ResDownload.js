@@ -1,4 +1,7 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
+// import { faUser, faEnvelope, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
 
 const ResDownload = () => {
@@ -17,7 +20,7 @@ const ResDownload = () => {
 
     return (
         <div className="Resume">
-        <button style={{margin:"0px"}} onClick={OnButtonClick}>Download Resume</button>
+        <button style={{margin:"0px", padding: "9px 26px", background:"#000 !important", color:"#fff", border:"1px solid #adadad", display:"flex", alignItems:"center"}} onClick={OnButtonClick}>Download Resume <FontAwesomeIcon icon={faAngleRight} style={{ marginLeft:"6px"}}/> </button>
        </div>
 
     );

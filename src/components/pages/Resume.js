@@ -21,7 +21,8 @@ export default function Resume() {
         <p>Phone: 773-988-2768 | Email: brentjustinhouston@gmail.com | <a href="https://www.linkedin.com/in/brent-houston-53291a13/" style={{color: "var(--accent4)", }}>LinkedIn</a> | <a href="https://github.com/brenthouston" style={{color: "var(--accent4)"}}>GitHub</a></p>
       </div>
       <div>
-        <h4>Summary</h4> <strong>Engineer & Artist:</strong> <p>Small business owner and master artist. A University of Washington Software graduate, and <strong>UX/UI Best in Class award recipient</strong>. Entrepreneurship strengthened my growth mindset, sharpened problem-solving, and deepened mastery. These skills bolstered my business success and readiness to excel in web development and design.</p>
+        <h4>Summary</h4>         <p>Currently at Sharp Hue, I specialize in PHP, WordPress, Shopify, HTML, CSS, JavaScript, and jQuery, with experience supporting ASP.NET web applications. As a University of Washington Software graduate and <strong>UX/UI Best in Class</strong> award recipient, I bring a solid technical foundation and a sharp eye for design. My experience as a small business owner developed essential skills in leadership, communication, and client management, enhancing my ability to collaborate effectively and deliver impactful solutions in web development.
+        </p>
       </div>
       <h4>Technical Skills</h4>
       <p style={{ color: "var(--accent1)", margin: 0 }}>

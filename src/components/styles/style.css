@@ -109,14 +109,14 @@ body {
 
 .box {
   height: 7rem;
-  border: 1px solid var(--accent1);
+  /* border: 1px solid var(--accent1); */
 }
 
 .box1 {
   margin: 0;
   padding: 0;
   height: 3.5rem;
-  border: 1px solid var(--accent1);
+  /* border: 1px solid var(--accent1); */
 }
 
 p.intro,
@@ -147,10 +147,10 @@ label {
 }
 
 button {
-  background-color: var(--accent3) !important;
+  
   margin-top: 15px;
-  color: var(--accent2) !important;
-  border: none !important;
+
+  
 }
 
 .nav-link.active {
