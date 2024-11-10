@@ -2,23 +2,23 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-"dependencies": {
-  "@emailjs/browser": "^3.11.0",
-  "@testing-library/jest-dom": "^5.16.5",
-  "@testing-library/react": "^13.4.0",
-  "@testing-library/user-event": "^13.5.0",
-  "bootstrap": "^5.3.1",
-  "emailjs-com": "^3.2.0",
-  "react": "^18.2.0",
-  "react-bootstrap-icons": "^1.10.3",
-  "react-dom": "^18.2.0",
-  "react-router-dom": "^6.11.2",
-  "react-scripts": "^5.0.1",
-  "web-vitals": "^2.1.4",
-  "@fortawesome/fontawesome-svg-core": "^6.5.1",
-  "@fortawesome/free-solid-svg-icons": "^6.5.1",
-  "@fortawesome/react-fontawesome": "^0.2.0"
-},
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.3.1",
+    "emailjs-com": "^3.2.0",
+    "react": "^18.2.0",
+    "react-bootstrap-icons": "^1.10.3",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^2.1.4",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -42,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "engines": {
+    "python": "3.8.20"
   }
 }
