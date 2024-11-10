@@ -76,7 +76,7 @@ export default function Resume() {
         <li style={{textIndent:"15px", listStyleType: "circle"}}><strong>Solution:</strong> Used Materialize date picker, read documentation</li>
         <li>Deployed using GitHub Pages  |  Apr 2023</li>
       </ul>
-     <a href="https://finnhub.netlify.app/login" style={{color: "var(--accent4)"}} target="_blank" rel="search"><strong >FinHub:</strong><em>  Financial Markets Monitoring and Social Media App.</em></a>
+     <a href="https://finnhub.netlify.app/login" style={{color: "var(--accent4)"}}rel="noreferrer" target="_blank" ><strong >FinHub:</strong><em>  Financial Markets Monitoring and Social Media App.</em></a>
       <ul style={{listStyleType:"square"}}>
         <li>Tech: Figma, React, Node.js, Express.js, MongoDB, Socket.io, Cloudinary, JS, Bootstrap, ApexCharts</li>
         <li><strong>Goal:</strong> <em>Monitor financial markets and connect investors</em></li>
@@ -85,7 +85,7 @@ export default function Resume() {
         <li style={{textIndent:"15px", listStyleType: "circle"}}><strong>Solution:</strong> Successfully Integrated ApexCharts, read documentation</li>
         <li>Deployed using Netlify  |  May 2023</li>
       </ul>
-     <a href="https://brenthouston.netlify.app/" style={{color: "var(--accent4)"}} target="_blank" rel="search"><strong >Web Dev Portfolio</strong></a>
+     <a href="https://brenthouston.netlify.app/" style={{color: "var(--accent4)"}} target="_blank" rel="noreferrer"><strong >Web Dev Portfolio</strong></a>
       <ul style={{listStyleType:"square"}}>
         <li>Tech: VS Code, React, Node.js, @EmailJS, Bootstrap, Photoshop</li>
         <li><strong>Goal:</strong> <em>Showcase web deveopment work</em></li>
@@ -188,7 +188,7 @@ export default function Resume() {
         conventions while also deploying a thorough repository containing all
         necessary information!”{" "}
       </em>
-      – UW Professor, Joe Rehfuss <h4>Interests</h4> Chess, Oil painting (<a href="https://www.brenthouston.com/" style={{color: "var(--accent4)"}} rel="search" target="_blank">brenthouston.com</a>), Coed softball
+      – UW Professor, Joe Rehfuss <h4>Interests</h4> Chess, Oil painting (<a href="https://www.brenthouston.com/" style={{color: "var(--accent4)"}} rel="noreferrer" target="_blank">brenthouston.com</a>), Coed softball
       league
       </div>
     </div>
