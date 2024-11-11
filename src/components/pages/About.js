@@ -13,7 +13,7 @@ export default function About() {
       </div>
 
       {/* Name and Role box */}
-      <div className=" row mx-5">
+      <div className=" row mx-5" style={{ justifyContent:"center"}}>
 
 
      
@@ -21,7 +21,7 @@ export default function About() {
         {/* box right */}
         <div
           className="box col col-lg-2 d-flex align-items-center justify-content-center"
-          style={{ minWidth: "287px" }}
+          style={{ minWidth: "287px", justifyContent:"center !important" }}
         >
           <img className="headShot " src={headShot} alt="Brent Houston headshot." />
         </div>
