@@ -235,4 +235,4 @@ h2 {
   }
 }
 
-.container-about { padding: 30px 100px; }
+.container-about { padding: 30px 100px; max-width:1000px; margin:0 auto; }
