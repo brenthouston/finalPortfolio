@@ -20,7 +20,7 @@ const ResDownload = () => {
 
     return (
         <div className="Resume">
-        <button style={{margin:"0px", padding: "9px 26px", background:"#000 !important", color:"#fff", border:"1px solid #adadad", display:"flex", alignItems:"center"}} onClick={OnButtonClick}>Download Resume <FontAwesomeIcon icon={faAngleRight} style={{ marginLeft:"6px"}}/> </button>
+        <button style={{margin:"0px", padding: "9px 26px", color:"var(--accent3)", border:"1px solid #adadad", display:"flex", alignItems:"center", background:"#000"}} onClick={OnButtonClick}>Download Resume <FontAwesomeIcon icon={faAngleRight} style={{ marginLeft:"6px"}}/> </button>
        </div>
 
     );
