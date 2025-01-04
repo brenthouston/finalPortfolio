@@ -58,7 +58,8 @@ button { border:none; }
 .menu-container .xmark { position: absolute; right: 10px; top:10px; height: 24px; width: 24px;color:#646262;padding:10px; cursor: pointer;}
 .menu-container .xmark:hover { background-color: #d9d5d247; border-radius: 50% ; }
 .menu-container ul { width: 100%; padding:0;}
-.menu-container ul li { list-style: none; padding: 10px 20px; cursor: pointer; font-weight: 600;}
+.menu-container ul li { list-style: none; }
+.menu-container ul li a { display:block; padding: 10px 20px; cursor: pointer; font-weight: 600; width:100%;}
 .menu-container ul li:hover { background-color: #e2e3e847; color:#96b9cf }
 .menu-container hr { margin:30px 40px;}
 .menu-container .menu-foot { display: flex; flex-direction: column; align-items: flex-end; justify-content: flex-end; height: 100vh; margin:30px; padding: 3px 0 3px 100px}
