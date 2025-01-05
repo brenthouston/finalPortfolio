@@ -5,7 +5,7 @@ import { faSquareArrowUpRight } from "@fortawesome/free-solid-svg-icons";
 import certapro from "../../images/certapro.png"
 import carmart from "../../images/carmart.png"
 import hugghall from "../../images/hugghall.png"
-import headShot from "../../images/headShot.png";
+import headShot from "../../images/headshot_cutout.png";
 import retained from "../../images/retained.png";
 import biotech from "../../images/biotech.png";
 
@@ -19,21 +19,41 @@ export default function Portfolio() {
       <div className="padding">
        <div className="intro" >
           <div className="promo-message">
-            <div className="flex">
-              <div>
-                <img className="headshot" src={headShot} width="150" height="150" alt="brent houoston"></img>
-              </div>
-              <div>
-                <h1 style={{fontSize: 52}}>My Work</h1>
-                <p><strong>Explore real-world examples</strong> of my work as a front-end developer, specializing in PHP, HTML, CSS, JavaScript, and jQuery. I develop custom themes for both Shopify and WordPress using PHP and Liquid, and integrate APIs to deliver scalable, responsive, and user-focused websites. Each project reflects my ability to create tailored, high-performance solutions that drive success for clients across various industries.</p>
-              </div>
-
+            <div>
+              <img className="headshot" src={headShot} height="auto" alt="brent houoston"></img>
+            </div>
+            <div class="intro-text">
+              <h1 style={{fontSize: 52}}>My Work</h1>
+              <p><strong>Explore real-world examples</strong> of my work as a front-end developer, specializing in PHP, HTML, CSS, JavaScript, and jQuery. I develop custom themes for both Shopify and WordPress using PHP and Liquid, and integrate APIs to deliver scalable, responsive, and user-focused websites. Each project reflects my ability to create tailored, high-performance solutions that drive success for clients across various industries.</p>
             </div>
           </div>
         </div>
 
-        <div className="flex section">
-          <div className="left">
+        <div className="section even">
+          <div className="pic">
+            <img src={certapro} alt=""></img>         
+          </div>
+          <div className="text">
+            <h3 className="year">2024</h3>
+            <h2 className="title">CertaPro </h2>
+            <h3 className="sub-title">Franchise Security Maintenance & Feature Development</h3>
+            <p className="text-block">Led multi-site security improvements for an international company with over 400 franchise locations. Reviewed and implemented fixes for vulnerabilities identified by Qualys, added HTTP security headers in functions.php, and resolved 2–5 issues weekly. Additionally, I managed form creation, validation, and secure payload delivery, improving both user experience and data handling. Collaborated with IT and internal teams to deploy secure, high-performing solutions with Git-based version control.</p>
+            <ul className="code-stack">
+              <li>PHP</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JQuery</li>
+              <li>WORDPRESS</li>
+            </ul> 
+            <a target="_blank" rel="noopener noreferrer" href="https://certapro.com/landing-page/residential/?vendor=merkle&source=PMAX&utm_medium=Search&utm_source=Google&utm_campaign=MERKLE_CP_SEM_Google_PMAX_PROSP_US_RES_ALL_National&gad_source=1&gclid=CjwKCAiArva5BhBiEiwA-oTnXdmZShm6U6qROCjamJfOYEG5yIQq7hRgRzxLo4bFcVozXXQnuGOdvRoCx6oQAvD_BwE&gclsrc=aw.ds">CERTAPRO PAINTERS <FontAwesomeIcon icon={faSquareArrowUpRight} /></a>
+          </div>
+        </div>
+
+        <div className="section">
+          <div className="pic">
+             <img src={carmart}alt=""></img>
+          </div>
+          <div className="text">
             <h3 className="year">2024</h3>
             <h2 className="title">Car-Mart</h2>
             <h3 className="sub-title">Enhancing Local Search Visibility</h3>
@@ -47,35 +67,15 @@ export default function Portfolio() {
             </ul> 
             <a target="_blank" rel="noopener noreferrer" href="https://www.car-mart.com/">CAR-MART <FontAwesomeIcon icon={faSquareArrowUpRight} /></a>
           </div>
-          <div className="rightpic">
-             <img src={carmart}alt=""></img>
-          </div>
         </div>
     
 
-        <div className="flex section even">
-          <div className="left">
-            <h3 className="year">2024</h3>
-            <h2 className="title">CertaPro </h2>
-            <h3 className="sub-title">Franchise Security Maintenance</h3>
-            <p className="text-block">Led multi-site security improvements for an international company with over 400 franchise locations. Reviewed and implemented fixes for vulnerabilities identified by Qualys, added HTTP security headers in functions.php, and resolved 2–5 issues weekly. Additionally, I managed form creation, validation, and secure payload delivery, improving both user experience and data handling. Collaborated with IT and internal teams to deploy secure, high-performing solutions with Git-based version control.</p>
-            <ul className="code-stack">
-              <li>PHP</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JQuery</li>
-              <li>WORDPRESS</li>
-            </ul> 
-            <a target="_blank" rel="noopener noreferrer" href="https://certapro.com/landing-page/residential/?vendor=merkle&source=PMAX&utm_medium=Search&utm_source=Google&utm_campaign=MERKLE_CP_SEM_Google_PMAX_PROSP_US_RES_ALL_National&gad_source=1&gclid=CjwKCAiArva5BhBiEiwA-oTnXdmZShm6U6qROCjamJfOYEG5yIQq7hRgRzxLo4bFcVozXXQnuGOdvRoCx6oQAvD_BwE&gclsrc=aw.ds">CERTAPRO PAINTERS <FontAwesomeIcon icon={faSquareArrowUpRight} /></a>
-          </div>
-          <div className="rightpic">
-            <img src={certapro} alt=""></img>         
-          </div>
-        </div>
 
-
-        <div className="flex section">
-          <div className="left">
+        <div className="section">
+          <div className="pic">
+             <img src={hugghall}alt=""></img>
+          </div>
+          <div className="text">
             <h3 className="year">2024</h3>
             <h2 className="title">Hugg & Hall</h2>
             <h3 className="sub-title">Website Refactor</h3>
@@ -89,16 +89,16 @@ export default function Portfolio() {
             </ul> 
             <a target="_blank" rel="noopener noreferrer" href="https://www.hugghall.com/">HUGG & HALL <FontAwesomeIcon icon={faSquareArrowUpRight} /></a>
           </div>
-          <div className="rightpic">
-             <img src={hugghall}alt=""></img>
-          </div>
         </div>
     
-        <div className="flex section even">
-          <div className="left">
+        <div className="section even">
+          <div className="pic">
+             <img src={retained}alt=""></img>
+          </div>
+          <div className="text">
             <h3 className="year">2024</h3>
             <h2 className="title">Retained</h2>
-            <h3 className="sub-title">Executive Placement Services Website</h3>
+            <h3 className="sub-title">Executive Placement Services Website Build</h3>
             <p className="text-block">A WordPress site built from the ground up, translating an Adobe XD prototype into pixel-perfect HTML, CSS, and JavaScript. Designed and implemented subtle CSS animations to enhance user engagement. Integrated the design into a WordPress framework using PHP, ensuring responsiveness and scalability. Delivered a user-friendly, intuitive interface focused on usability and UX/UI principles, receiving positive feedback from the client.</p>
             <ul className="code-stack">
               <li>PHP</li>
@@ -109,16 +109,16 @@ export default function Portfolio() {
             </ul> 
             <a target="_blank" rel="noopener noreferrer" href="https://retained.com/">RETAINED <FontAwesomeIcon icon={faSquareArrowUpRight} /></a>
           </div>
-          <div className="rightpic">
-             <img src={retained}alt=""></img>
-          </div>
         </div>
 
-        <div className="flex section">
-          <div className="left">
+        <div className="section">
+          <div className="pic">
+             <img src={biotech}alt=""></img>
+          </div>
+          <div className="text">
             <h3 className="year">2024</h3>
             <h2 className="title">Bio-Tech Pharmacal</h2>
-            <h3 className="sub-title">Pharmacal Website Build</h3>
+            <h3 className="sub-title">Bio-Tech Website Build</h3>
             <p className="text-block">Played a key role in the custom theme development for BioTech Pharmacal, a company specializing in supplements. I built the entire site from scratch using HTML, CSS, and jQuery, with a focus on improving user experience and site performance. Designed and implemented a dynamic cart system with real-time updates, streamlining the checkout process.This improvement led to increased user engagement and a noticeable boost in overall site performance. By working directly with the custom Shopify theme, I ensured a seamless, high-performance experience without relying on third-party apps.</p>
             <ul className="code-stack">
               <li>HTML</li>
@@ -127,9 +127,6 @@ export default function Portfolio() {
               <li>SHOPIFY</li>
             </ul> 
             <a  target="_blank" rel="noopener noreferrer" href="https://www.biotechpharmacal.com/">BIO-TECH PHARMACAL <FontAwesomeIcon icon={faSquareArrowUpRight} /></a>
-          </div>
-          <div className="rightpic">
-             <img src={biotech}alt=""></img>
           </div>
         </div>
     
@@ -179,7 +176,7 @@ export default function Portfolio() {
         <li style={{textIndent:"15px", listStyleType: "circle"}}><strong>Solution:</strong> Successfully Integrated ApexCharts, read documentation</li>
         <li>Deployed using Netlify  |  May 2023</li>
       </ul>
-              <div className="d-flex justify-content-end ">
+              <div className="d-justify-content-end ">
                 <a
                   href="https://finnhub.netlify.app/home"
                   class="btn"

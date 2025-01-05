@@ -29,7 +29,7 @@ export default function ContactUs() {
 
 
   return (
-    <div className="container contact">
+    <div id="contact" className="container contact">
       <div>
         <h1 style={{ fontSize: 52 }}>Contact Me</h1>
         <p className="contact">
@@ -62,16 +62,13 @@ export default function ContactUs() {
 <div class="form-group">
         <label class="col-md-3 control-label">Message</label>
         <div class="col-md-9">
-        <textarea name="message" class="form-control" style={{background:'var(--accent1)'}}placeholder="Please enter your message here..." rows="5"/>
+          <textarea name="message" class="form-control" style={{background:'var(--accent1)'}}placeholder="Please enter your message here..." rows="5"/>
         </div>
 </div>
 
 <div class="form-group">
   <div class="col-md-12 text-right">
-        <input class="btn btn-primary btn-lg" type="submit" value="Send" style={  {backgroundColor: "var(--accent3) !important",
-  marginTop: "15px",
-  color: "var(--accent2) !important",
-  border: "none !important"}} />
+        <input class="btn1" type="submit" value="Connect"/>
         </div>
         </div>
       </form>

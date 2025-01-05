@@ -24,7 +24,7 @@ export default function Resume() {
         <p>Currently at Sharp Hue, I specialize in PHP, WordPress, Shopify, HTML, CSS, JavaScript, and jQuery, with experience supporting ASP.NET web applications. As a University of Washington Software graduate and <strong>UX/UI Best in Class</strong> award recipient, I bring a solid technical foundation and a sharp eye for design. My experience as a small business owner developed essential skills in leadership, communication, and client management, enhancing my ability to collaborate effectively and deliver impactful solutions in web development.</p>
       </div>
 
-      <h4>Experience</h4><span style={{ float: "right" }}><em>Fayetteville, AR</em></span>
+      <h4>Experience</h4><span style={{ float: "right" }}><em>Tacoma, WA</em></span>
       <div className="sec-block">
         <a href="https://www.sharphue.com/" style={{color: "var(--accent4)"}}  target="_blank" rel="noopener noreferrer" aria-label="See where Brent Houston currently works."><strong>Sharp Hue</strong></a>
         <p style={{fontSize: "15px", marginBottom:"0"}}>Front-End Developer | 2023 - Present</p>
